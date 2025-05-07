@@ -7,7 +7,7 @@ input=$1
 output=$(basename $1).md
 mkdir -p "$outdir"
 if [ ! -d "$outdir/_static" ]; then
-    cp -r static "$processed/_static"
+    cp -r static "processed/_static"
 fi
 echo python3 "$main" --to-markdown --assets-dir static/ -o "$outdir/$output" "$input" "translations/$LANGUAGE/LC_MESSAGES/$posource"
 python3 "$main" --to-markdown --assets-dir static/ -o "$outdir/$output" "$input" "translations/$LANGUAGE/LC_MESSAGES/$posource" 2>> err.$LANGUAGE.log 1>> log.$LANGUAGE.log
