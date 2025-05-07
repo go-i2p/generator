@@ -1,0 +1,16 @@
+I2P dev meeting, March 28, 2005
+===============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ant,
+cervantes,
+frosk,
+jrandom,
+Myo9,
+postman,
+smeghead,
+zzz,

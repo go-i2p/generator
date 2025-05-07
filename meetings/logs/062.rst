@@ -1,0 +1,14 @@
+I2P dev meeting, DATE
+=============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+Dellammo,
+dm,
+jrand0m,
+mihi,
+moi,
+wilde,

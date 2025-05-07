@@ -1,0 +1,17 @@
+I2P dev meeting, November 16, 2004
+==================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ant,
+dinoman,
+DrWoo,
+duck,
+jrandom,
+postman,
+Ragnarok,
+susi23,
+wiht,

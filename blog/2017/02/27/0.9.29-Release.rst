@@ -1,0 +1,88 @@
+{% trans -%}
+==============
+0.9.29 Release
+==============
+{%- endtrans %}
+
+.. meta::
+   :author: zzz
+   :date: 2017-02-27
+   :category: release
+   :excerpt: {% trans %}0.9.29 contains bug fixes{% endtrans %}
+
+{% trans -%}
+Update details
+{%- endtrans %}
+==============
+
+{% trans -%}
+0.9.29 contains fixes for numerous Trac tickets, including workarounds for corrupt compressed messages.
+We now support NTP over IPv6.
+We've added preliminary Docker support.
+We now have translated man pages.
+We now pass same-origin Referer headers through the HTTP proxy.
+There are more fixes for Java 9, although we do not yet recommend Java 9 for general use.
+{%- endtrans %}
+
+{% trans -%}
+As usual, we recommend that you update to this release. The best way to
+maintain security and help the network is to run the latest release.
+{%- endtrans %}
+
+
+**{% trans %}RELEASE DETAILS{% endtrans %}**
+
+**{% trans %}Changes{% endtrans %}**
+
+- {% trans %}BOB database refactor{% endtrans %}
+- {% trans %}Fixes for Java 9, still not recommended for general use{% endtrans %}
+- {% trans %}NTP fixes for security and standards{% endtrans %}
+- {% trans %}NTP IPv6 support{% endtrans %}
+- {% trans %}Don't display very old news in console{% endtrans %}
+- {% trans %}Blocklist checking improvements{% endtrans %}
+- {% trans %}Add preliminary Docker support{% endtrans %}
+- {% trans %}Add Referrer-Policy headers to console{% endtrans %}
+- {% trans %}Pass same-origin Referer headers through proxy{% endtrans %}
+- {% trans %}Translated man pages{% endtrans %}
+
+
+**{% trans %}Bug Fixes{% endtrans %}**
+
+- {% trans %}Add support for outproxy plugin to CONNECT proxy{% endtrans %}
+- {% trans %}Replace random tunnel keys when rekeying{% endtrans %}
+- {% trans %}Fix streaming optional delay and choking{% endtrans %}
+- {% trans %}Don't hard fail on message expired error in streaming{% endtrans %}
+- {% trans %}Fix javadoc errors{% endtrans %}
+- {% trans %}Fix broken unit tests{% endtrans %}
+- {% trans %}Ensure i2psnark finishes writing config files at shutdown{% endtrans %}
+- {% trans %}Fix rare NPE in AES via NTCP{% endtrans %}
+- {% trans %}Disable caching of compressors, in an attempt to fix corruption{% endtrans %}
+- {% trans %}Don't close SAM or BOB session on receipt of corrupt compressed data{% endtrans %}
+
+
+**{% trans %}Other{% endtrans %}**
+
+- {% trans %}Add support for ports to CONNECT proxy{% endtrans %}
+- {% trans %}Consolidate stream copy code{% endtrans %}
+- {% trans %}Consolidate console timer threads{% endtrans %}
+- {% trans %}New streaming test harness{% endtrans %}
+- {% trans %}Translation updates{% endtrans %}
+- {% trans %}Update GeoIP data (new installs and PPA only){% endtrans %}
+
+
+`{% trans %}Full list of fixed bugs{% endtrans %}`__
+
+__ http://{{ i2pconv('trac.i2p2.i2p') }}/query?resolution=fixed&milestone=0.9.29
+
+
+**{% trans %}SHA256 Checksums:{% endtrans %}**
+
+::
+
+     acf31ea103fb7fa0622118d67092541b70b0af2cf8475492986d4089f40ea6fe  i2pinstall_0.9.29_windows.exe      (Crashes in installer, removed 2017-03-04)
+     cc10ef2181be01e27c69963faabdbc70e6e7f4191d69cab2d10abb4ec5dce9b4  i2pinstall_0.9.29-win1_windows.exe (Fix for installer, added 2017-03-04)
+     1b74e29ea375a15eebb5ec2f9b190f5f001a2e5b1193d2db657ce8a69c369934  i2pinstall_0.9.29.jar
+     67da4ce224fef2b190ffeed5dba102a3b7724f061b1c168255625c028a97c3a7  i2psource_0.9.29.tar.bz2
+     f927ca4eda5a07c1e93ed8096df87d8fb0a516e64176d9efd645523aa7711a42  i2pupdate_0.9.29.zip
+     e77040937972b24eb37ab37aeb90a9cad64c3baa74858ee774295cc007dfca48  i2pupdate.su3
+

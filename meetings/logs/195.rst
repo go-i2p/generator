@@ -1,0 +1,12 @@
+I2P dev meeting, January 2, 2007
+================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+covracer,
+jrandom,
+z^z,

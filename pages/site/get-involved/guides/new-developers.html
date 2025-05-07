@@ -1,0 +1,144 @@
+{% extends "global/layout.html" %}
+{% block title %}{% trans %}New Developer's Guide{% endtrans %}{% endblock %}
+{% block lastupdated %}2021-01{% endblock %}
+{% block content_nav %}
+  <ol>
+    <li><a href="#basic-study">{% trans %}Get to Know Java{% endtrans %}</a></li>
+    <li><a href="#getting-the-i2p-code">{% trans %}Getting the I2P code{% endtrans %}</a>
+    <ul>
+      <li><a href="#git">{% trans %}The new way: Git{% endtrans %}</a></li>
+    </ul></li>
+    <li><a href="#building-i2p">{% trans %}Building I2P{% endtrans %}</a></li>
+    <li><a href="#development-ideas">{% trans %}Development ideas{% endtrans %}</a></li>
+    <li><a href="#making-the-results-available">{% trans %}Making the results available{% endtrans %}</a></li>
+    <li><a href="#get-to-know-us">{% trans %}Get to know us!{% endtrans %}</a></li>
+    <li><a href="#translations">{% trans %}Translations{% endtrans %}</a></li>
+    <li><a href="#tools">{% trans %}Tools{% endtrans %}</a></li>
+  </ol>
+{% endblock %}
+
+{% block content %}
+<p>{% trans %}
+So you want to start work on I2P? Great!
+Here's a quick guide to getting started
+on contributing to the website or the software, doing development or creating translations.
+{%- endtrans %}</p>
+<p>{% trans volunteer=site_url('get-involved') %}
+Not quite ready for coding?
+Try <a href="{{ volunteer }}">getting involved</a> first.
+{%- endtrans %}</p>
+
+<h2 id="get-to-know-java">{% trans %}Get to Know Java{% endtrans %}</h2>
+
+<p>{% trans -%}
+The I2P router and its embedded applications use Java as the main development language.
+If you don't have experience with Java, you can always have a look at <a href="http://www.mindview.net/Books/TIJ/">Thinking in Java</a>.
+{%- endtrans %}</p>
+<p>{% trans intro=site_url('docs/how/intro'), docs=site_url('docs'), techintro=site_url('docs/how/tech-intro') -%}
+Study the <a href="{{ intro }}">how intro</a>,
+the <a href="{{ docs }}">other "how" documents</a>,
+the <a href="{{ techintro }}">tech intro</a>,
+and associated documents.
+These will give you a good overview of how I2P is structured and what different things it does.
+{%- endtrans %}</p>
+
+<h2 id="getting-the-i2p-code">{% trans %}Getting the I2P code{% endtrans %}</h2>
+
+<p>{% trans -%}
+For development on the I2P router or the embedded applications,
+you need to get the source code:
+{%- endtrans %}</p>
+
+<h3 id="git">{% trans %}Our current way: Git{% endtrans %}</h3>
+
+<p>{% trans trac="https://i2pgit.org" -%}I2P has official Git services and accepts contributions via Git at <a href="{{ trac }}">our own gitlab</a>.
+Trac issues have also been migrated to Git issues. Two-way syncing of
+issues between Gitlab and Github is a work-in-progress.{%- endtrans %}</p>
+
+<li>{% trans git_url='https://git-scm.com/' -%}
+Install <a href="{{ git_url }}">Git</a>.
+  {%- endtrans %}</li>
+
+
+<ul>
+  <li><strong><a href="http://git.idk.i2p">{% trans %}Inside I2P - (http://git.idk.i2p){% endtrans %}</a></strong>
+  </li>
+  <li><strong><a href="https://i2pgit.org">{% trans %}Outside I2P - (https://i2pgit.org){% endtrans %}</a></strong>
+  </li>
+  <code>git clone https://i2pgit.org/i2p-hackers/i2p.i2p.git</code>
+</ul>
+
+<p>The read-only mirror is also still available at github.</p>
+
+<ul>
+  <li><strong>{% trans i2p_git='https://github.com/i2p/i2p.i2p' -%}  
+    <a href="{{ i2p_git }}">GitHub mirror</a></strong>:
+  {%- endtrans %}<br>
+    <code>git clone https://github.com/i2p/i2p.i2p.git</code>
+  </li>
+</ul>
+
+<h2 id="building-i2p">{% trans %}Building I2P{% endtrans %}</h2>
+
+<p>{% trans sunjdk6='http://www.oracle.com/technetwork/java/javase/downloads/index.html' -%}
+To compile the code, you need the Sun Java Development Kit 6 or higher, or equivalent JDK
+(<a href="{{ sunjdk6 }}">Sun JDK 6</a> strongly recommended) and
+<a href="http://ant.apache.org/">Apache ant</a>
+version 1.7.0 or higher.
+If you go are working on the main I2P code, you can go into the i2p.i2p directory and run 'ant' to see the build options.
+{%- endtrans %}</p>
+
+<p>{% trans -%}
+To build or work on console translations, you need
+the xgettext, msgfmt, and msgmerge tools from the
+<a href="http://www.gnu.org/software/gettext/">GNU gettext package</a>.
+{%- endtrans %}</p>
+
+<p>{% trans apps=site_url('get-involved/develop/applications') -%}
+For development on new applications,
+see the <a href="{{ apps }}">application development guide</a>.
+{%- endtrans %}</p>
+
+<h2 id="development-ideas">{% trans %}Development ideas{% endtrans %}</h2>
+<p>{% trans todo=site_url('get-involved/todo'), trac='https://i2pgit.org/i2p-hackers/i2p.i2p/issues' -%}
+See <a href="{{ todo }}">the project TODO list</a> or
+<a href="{{ trac }}">the issue list on GitLab</a>
+for ideas.
+{%- endtrans %}</p>
+
+<h2 id="making-the-results-available">{% trans %}Making the results available{% endtrans %}</h2>
+
+<p>{% trans licenses=site_url('get-involved/develop/licenses') -%}
+See the bottom of <a href="{{ licenses }}#commit">the licenses page</a> for
+commit privilege requirements. You need these to put code into i2p.i2p (not required for the website!).
+{%- endtrans %}</p>
+
+<h2 id="get-to-know-us">{% trans %}Get to know us!{% endtrans %}</h2>
+<p>{% trans guidelines=site_url('get-involved/guides/dev-guidelines') -%}
+The developers hang around on IRC. They can be reached on the Freenode network, OFTC, and on the I2P internal networks. The usual place to look is #i2p-dev. Join the channel and say hi!
+We also have <a href="{{ guidelines }}">additional guidelines for regular developers</a>.
+{%- endtrans %}</p>
+
+<h2 id="translations">{% trans %}Translations{% endtrans %}</h2>
+<p>{% trans newtrans=site_url('get-involved/guides/new-translators') -%}
+Website and router console translators: See the <a href="{{ newtrans }}">New Translator's Guide</a>
+for next steps.
+{%- endtrans %}</p>
+
+<h2 id="tools">{% trans %}Tools{% endtrans %}</h2>
+<p>{% trans -%}
+I2P is open source software that is mostly developed using open sourced
+toolkits. The I2P project recently acquired a license for the YourKit Java
+Profiler. Open source projects are eligible to receive a free license provided
+that YourKit is referenced on the project web site. Please get in touch if you
+are interested in profiling the I2P codebase.
+{%- endtrans %}</p>
+
+<p>{% trans java='http://www.yourkit.com/java/profiler/index.jsp', dotnet='http://www.yourkit.com/.net/profiler/index.jsp' -%}
+YourKit is kindly supporting open source projects with its full-featured Java Profiler.
+YourKit, LLC is the creator of innovative and intelligent tools for profiling
+Java and .NET applications. Take a look at YourKit's leading software products:
+<a href="{{ java }}">YourKit Java Profiler</a> and
+<a href="{{ dotnet }}">YourKit .NET Profiler</a>.
+{%- endtrans %}</p>
+{% endblock %}

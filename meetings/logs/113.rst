@@ -1,0 +1,12 @@
+I2P dev meeting, October 26, 2004
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+deer,
+jrandom,
+lucky,
+modulus,

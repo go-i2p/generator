@@ -1,0 +1,13 @@
+I2P dev meeting, December 26, 2006
+==================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+Complication2,
+gloin,
+hottuna,
+jrandom,

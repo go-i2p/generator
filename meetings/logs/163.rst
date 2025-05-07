@@ -1,0 +1,14 @@
+I2P dev meeting, January 10, 2006
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+cervantes,
+Complication,
+jrandom,
+Pseudonym,
+teal`c\_,
+tethra,

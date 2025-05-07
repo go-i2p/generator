@@ -1,0 +1,18 @@
+I2P dev meeting, December 16, 2003 @ 22:00 CET
+==============================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+duck,
+FireRabbit,
+jrand0m,
+lonelynerd,
+mids,
+mihi,
+MrEcho,
+protocol,
+TC,
+wiht,

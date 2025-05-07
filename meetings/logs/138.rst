@@ -1,0 +1,17 @@
+I2P dev meeting, April 19, 2005
+===============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ant,
+cervantes,
+defnax,
+jrandom,
+maestro^,
+polecat,
+protokol,
+Ragnarok,
+Teal`c,

@@ -1,0 +1,18 @@
+I2P dev meeting, February 11, 2003 @ 23:00 UTC
+==============================================
+
+(Courtesy of the wayback machine http://www.archive.org/)
+
+Quick recap
+-----------
+
+* **Present:**
+
+_42,
+hezekiah,
+hobbs,
+lonelynerd,
+mids,
+nemesis,
+nop,
+thecrypto,

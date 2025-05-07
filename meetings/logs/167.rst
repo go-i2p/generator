@@ -1,0 +1,16 @@
+I2P dev meeting, February 7, 2006
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+cervantes,
+Complication,
+jrandom,
+KBlup,
+modulus,
+tethra,
+tmp,

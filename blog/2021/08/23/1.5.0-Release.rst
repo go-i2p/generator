@@ -1,0 +1,74 @@
+===========================================
+{% trans -%}1.5.0 Release{%- endtrans %}
+===========================================
+
+.. meta::
+   :author: zzz
+   :date: 2021-08-23
+   :category: release
+   :excerpt: {% trans %}1.5.0 with new tunnel build messages{% endtrans %}
+
+{% trans -%}
+Update details
+{%- endtrans %}
+============================================
+
+{% trans -%}
+Yes, that's right, after 9 years of 0.9.x releases, we are going straight from 0.9.50 to 1.5.0.
+This does not signify a major API change, or a claim that development is now complete.
+It is simply a recognition of almost 20 years of work to provide anonymity and security for our users.
+{%- endtrans %}
+
+{% trans -%}
+This release finishes implementation of smaller tunnel build messages to reduce bandwidth.
+We continue the transition of the network's routers to X25519 encryption.
+Of course there are also numerous bug fixes and performance improvements.
+{%- endtrans %}
+
+{% trans -%}
+As usual, we recommend that you update to this release. The best way to
+maintain security and help the network is to run the latest release.
+{%- endtrans %}
+
+
+**{% trans %}RELEASE DETAILS{% endtrans %}**
+
+**{% trans %}Changes{% endtrans %}**
+
+- RRD4J 3.8
+- {% trans %}Tunnels: Finish support for new build messages (proposal 157){% endtrans %}
+- {% trans %}Updates: Support for .dmg and .exe updates{% endtrans %}
+
+
+**{% trans %}Bug Fixes{% endtrans %}**
+
+- {% trans %}Console: Fix generation of SSL keys on Java 17{% endtrans %}
+- {% trans %}i2psnark: Fix autostart for magnets{% endtrans %}
+- {% trans %}Router: Fix rare deadlock in publishing our RI{% endtrans %}
+- {% trans %}SSU: Fix handling of bad peer test responses{% endtrans %}
+- {% trans %}UPnP: IPv6 fixes{% endtrans %}
+
+
+**{% trans %}Other{% endtrans %}**
+
+- {% trans %}Jetty: Improve sort in directory listings{% endtrans %}
+- {% trans %}Jetty: Add X-I2P-Location header{% endtrans %}
+- {% trans %}Router: Increase probability to rekey to ECIES{% endtrans %}
+- {% trans %}Streaming: Performance improvements for low-latency connections{% endtrans %}
+- {% trans %}Translation updates{% endtrans %}
+
+
+`{% trans %}Full list of fixed bugs{% endtrans %}`__
+
+__ http://{{ i2pconv('trac.i2p2.i2p') }}/query?resolution=fixed&milestone=1.5.0
+
+
+**{% trans %}SHA256 Checksums:{% endtrans %}**
+
+::
+
+     2c9c382852e17e124d77a2bf28f95056599fd458f8de77adcf8e2aaa22b3ef81  i2pinstall_1.5.0_windows.exe
+     8c843c90870223b4808065761d059a02b168b74daddd1773c36f0a0245e201f9  i2pinstall_1.5.0.jar
+     26e5f4d95b1a0766870f97b30e57c9a8e98690279c3bf09198e30effabecc450  i2psource_1.5.0.tar.bz2
+     ea1b4b8095f4d6f5568ce879242e1d5b077de1beb4366f4a75a75cffd559ee7f  i2pupdate_1.5.0.zip
+     5d4812278350ce80f3a718f40698afc7f20f0808ef1e2ff56432ab0c2891134c  i2pupdate.su3

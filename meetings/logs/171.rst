@@ -1,0 +1,13 @@
+I2P dev meeting, March 7, 2006
+==============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+Complication,
+dust,
+jrandom,
+susi23,

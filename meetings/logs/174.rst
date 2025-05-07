@@ -1,0 +1,15 @@
+I2P dev meeting, March 28, 2006
+===============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ashter,
+bar,
+cervantes,
+Complication,
+jrandom,
+nextgens,
+tethra,

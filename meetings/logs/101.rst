@@ -1,0 +1,23 @@
+I2P dev meeting, August 3, 2004 @ 21:00 GMT
+===========================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+alpaca\_,
+bogobot,
+cervantes,
+duck,
+hobbs,
+hypercubus,
+jrandom,
+jteitel,
+mihi,
+mrflibble,
+mule,
+mule2p,
+Nightblade,
+oOo,
+protok0l,

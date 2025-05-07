@@ -1,0 +1,16 @@
+I2P dev meeting, August 21, 2002
+================================
+
+(Courtesy of the wayback machine http://www.archive.org/)
+
+Quick recap
+-----------
+
+* **Present:**
+
+agril,
+hobbs,
+mids,
+Neo,
+pox,
+thecrypto,

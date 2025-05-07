@@ -1,0 +1,18 @@
+I2P dev meeting, December 28, 2004
+==================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ant,
+cat-a-puss,
+frosk,
+jdot\__,
+jrandom,
+lektriK,
+mule,
+mule2,
+postman,
+scintilla,

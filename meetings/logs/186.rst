@@ -1,0 +1,15 @@
+I2P dev meeting, October 24, 2006
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+badger,
+bar,
+cervantes,
+Complication,
+HotTuna
+jrandom,
+tethra,

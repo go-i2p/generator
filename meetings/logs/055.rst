@@ -1,0 +1,13 @@
+I2P dev meeting, DATE
+=============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+jeremiah,
+jrand0m,
+mihi,
+nop,
+thecrypto,

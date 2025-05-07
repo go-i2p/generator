@@ -1,0 +1,12 @@
+I2P dev meeting, May 16, 2006
+=============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+cervantes,
+Complication,
+Pi,

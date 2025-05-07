@@ -1,0 +1,16 @@
+I2P dev meeting, April 5, 2005
+==============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ant,
+duck,
+frosk,
+jrandom,
+jrandom2p,
+protokol,
+Teal`c\__,
+zzz,

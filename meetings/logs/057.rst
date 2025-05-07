@@ -1,0 +1,15 @@
+I2P dev meeting, DATE
+=============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+Brownspider,
+co,
+jrand0m,
+mariesofie,
+mihi,
+shardy,
+w0rmus,

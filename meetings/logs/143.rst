@@ -1,0 +1,13 @@
+I2P dev meeting, August 16, 2005
+================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+cervantes,
+Complication,
+jrandom,
+postman,
+susi23,

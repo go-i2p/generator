@@ -1,0 +1,25 @@
+I2P dev meeting, January 18, 2005
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ant,
+bla,
+BrockSamson,
+cervantes,
+dox,
+duck,
+Frooze,
+jrandom,
+kaji,
+mule,
+orion,
+polecat,
+postman,
+protokol,
+Ragnarok,
+Teal`c,
+Xan,

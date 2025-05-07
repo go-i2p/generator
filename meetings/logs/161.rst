@@ -1,0 +1,17 @@
+I2P dev meeting, December 20, 2005
+==================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+Complication,
+dust,
+jrandom,
+legion,
+polecat,
+tealc\_,
+tethra,
+zzz,

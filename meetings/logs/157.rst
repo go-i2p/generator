@@ -1,0 +1,16 @@
+I2P dev meeting, November 22, 2005
+==================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ailouros,
+cervantes,
+Complication,
+frosk,
+jrandom,
+nickless_head,
+Raccoon23,
+zzz,

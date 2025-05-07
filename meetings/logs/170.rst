@@ -1,0 +1,17 @@
+I2P dev meeting, February 28, 2006
+==================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+blubb,
+cervantes,
+Complication,
+DeltaQ,
+jrandom,
+Magii,
+nymisis,
+postman,
+tethra,

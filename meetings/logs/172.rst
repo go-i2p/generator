@@ -1,0 +1,18 @@
+I2P dev meeting, March 14, 2006
+===============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+cervantes,
+Complication,
+fc,
+frosk,
+jrandom,
+ripple,
+susi23,
+tethra,
+tmp,

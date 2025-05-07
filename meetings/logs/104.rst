@@ -1,0 +1,17 @@
+I2P dev meeting, August 24, 2004
+================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+cervantes,
+deer,
+fvw,
+hypercubus,
+jrandom,
+kaji,
+luckypunk,
+Nightblade,
+protok0l,

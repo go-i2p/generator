@@ -1,0 +1,17 @@
+I2P dev meeting, August 9, 2005
+===============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ant,
+bla,
+detonate,
+duck,
+jrandom,
+jrandom2p,
+luckypunk,
+postman,
+smeghead,

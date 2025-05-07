@@ -1,0 +1,331 @@
+{% extends "global/layout.html" %}
+{% block title %}{{ _('Presentations on I2P') }}{% endblock %}
+{% block lastupdated %}2024-09{% endblock %}
+{% block content %}
+<p>{% trans papers=site_url('papers') -%}
+Following are links to presentations, videos, and tutorials about I2P. Links to research papers on I2P are available <a href="{{ papers }}">here</a>.
+{%- endtrans %}</p>
+<p>{% trans email='press ~~~at~~~ i2p2.de' -%}
+To request an addition to this page, please send to {{ email }}.
+{%- endtrans %}</p>
+<p>{% trans %}
+Newest links are at the bottom of each section.
+{%- endtrans %}</p>
+<div class="links">
+
+<h2>{{ _('Presentations') }}</h2>
+<ul>
+
+<li>{% trans mp3='http://invisibleip.sourceforge.net/iip/resources/codecon_0x90.mp3',
+transcript='http://invisibleip.sourceforge.net/iip/resources/iip_transcript.txt' -%}
+IIP Presentation at CodeCon
+<a href="{{ mp3 }}">MP3 audio</a>
+<a href="{{ transcript }}">transcript</a>
+Lance James (0x90), February 2002.
+{%- endtrans %}</li>
+
+<li>{% trans mp3='http://invisibleip.sourceforge.net/iip/resources/toorconspeech.mp3',
+slides='http://invisibleip.sourceforge.net/iip/resources/toorconspeech/' -%}
+IIP Presentation at ToorCon
+<a href="{{ mp3 }}">MP3 audio</a>
+<a href="{{ slides }}">slides</a>
+Lance James (0x90), September 2002.
+{%- endtrans %}</li>
+
+<li>{% trans video='http://www.youtube.com/watch?v=TsfdzfGZyu0',
+pdf='http://events.ccc.de/congress/2007/Fahrplan/attachments/1017_24c3-i2p.pdf' -%}
+<a href="{{ video }}">To Be or I2P</a>
+(Youtube Video)
+An introduction into anonymous communication with I2P.
+<a href="{{ pdf }}">To Be or I2P (PDF presentation)</a>,
+Jens Kubieziel, 24C3 Berlin, December 28, 2007.
+{%- endtrans %}</li>
+
+<li>{% trans video='http://marge.informatik.tu-chemnitz.de/archiv/CLT2009/V4-Sa1200-Security-Lars_Schimmer.mp4' -%}
+<a href="{{ video }}">Video of I2P talk at Chemnitz Linux Tag</a>,
+Lars Schimmer,
+March 14-15, 2009
+{%- endtrans %}</li>
+
+<li>{% trans mp3='http://stats.i2p/media/tnhc21.mp3', vid='https://www.youtube.com/watch?v=ADiZ32CkEao' -%}
+HOPE New York July 17, 2010 - Brief overview of I2P by zzz, at the end of Adrian Hong's talk
+"Hackers for Human Rights".
+<a href="{{ mp3 }}">MP3 audio</a>
+<a href="{{ vid }}">Youtube Video</a> (I2P part at 44 minutes)
+{%- endtrans %}</li>
+
+<li>{% trans link='http://www.irongeek.com/i.php?page=videos/shmoocon-firetalks-2011' -%}
+<a href="{{ link }}">Into the I2P Darknet: Welcome to Cipherspace</a>
+Adrian Crenshaw. Schmoocon Firetalk, January 2011
+{%- endtrans %}</li>
+
+<li>{% trans link='http://www.youtube.com/watch?v=TexNr_5J5AU' -%}
+<a href="{{ link }}">Using techhnology to advance liberty</a>
+(Youtube Video)
+Eric Johnson.
+<a href="http://agora.io/etienne">Agora I/O Unconference</a>, March 27, 2011.
+I2P covered from 10:00 to 20:00 in the video.
+{%- endtrans %}</li>
+
+<li>{% trans link='http://www.youtube.com/watch?v=bI_1qlcwfE0' -%}
+<a href="{{ link }}">Common Darknet Weaknesses</a>
+(Youtube Video)
+Adrian Crenshaw, <a href="http://aide.marshall.edu/">AIDE</a>, July 11-15, 2011.
+{%- endtrans %}</li>
+
+<li>{% trans link='http://www.irongeek.com/i.php?page=security/i2p-tor-workshop-notes' -%}
+<a href="{{ link }}">I2P / Tor Workshop Notes</a>
+Adrian Crenshaw. DEF CON 19, Las Vegas, August 6, 2011.
+{%- endtrans %}</li>
+
+<li>{% trans live='http://www.youtube.com/watch?v=xxKXkbohRZM',
+studio='http://www.youtube.com/watch?v=xFxJ6Dc5ass',
+slides='http://www.irongeek.com/downloads/Adrian-Crenshaw-darknet-weaknesses.pptx' -%}
+<a href="{{ live }}">Cipherspaces/Darknets: An Overview Of Attack Strategies -
+DEF CON Live version (Youtube Video)</a>,
+<a href="{{ studio }}">"Studio" version (Youtube Video)</a>,
+<a href="{{ slides }}">Slides (ppt)</a>
+Adrian Crenshaw. DEF CON 19, Las Vegas, August 7, 2011.
+{%- endtrans %}</li>
+
+<li>{% trans -%}
+<a href="http://0x375.org/">Modern cipherspace ecosystems</a>, 0x375 0x06 (Thessaloniki Tech Talk Sessions), November 4, 2011.
+{%- endtrans %}</li>
+
+<li>{% trans link='https://www.youtube.com/watch?v=pyeEWaz9z1s' -%}
+<a href="{{ link }}">I2P - The Anonymous Network</a>
+(Youtube Video)
+Blair Dick, University of Abertay, Dundee Ethical Hacking Society, January 25, 2012.
+{%- endtrans %}</li>
+
+<li>{% trans link='i2pcon/2015.html' -%}
+<a href="{{ link }}">I2PCon 2015</a>
+Toronto, August 15-16, 2015
+{%- endtrans %}</li>
+
+<li>{% trans link='https://download.i2p2.de/media/ccc/2015/I2P_Still_alive.pdf',
+link2='https://fossil.net2o.de/32c3/doc/trunk/wiki/i2p.md' -%}
+<a href="{{ link }}">I2P - Still alive! (pdf)</a>
+<a href="{{ link2 }}">(video)</a>
+echelon, 32C3 (You Broke the Internet Assembly), Hamburg, December 28, 2015
+{%- endtrans %}</li>
+
+<li>{% trans link='https://download.i2p2.de/media/rwc/2016/rwc2016-str4d-slides.pdf',
+link2='https://download.i2p2.de/media/rwc/2016/rwc2016-str4d-slides.odp' -%}
+Replacing Weary Crypto: Upgrading the I2P network with stronger primitives
+<a href="{{ link }}">(pdf)</a>
+<a href="{{ link2 }}">(odp)</a>
+str4d, Real World Crypto, Stanford, January 8, 2016
+{%- endtrans %}</li>
+
+<li>{% trans link='http://' + i2pconv('str4d.i2p')  + '/talks/2016-uww-i2p-slides.pdf',
+link2='http://' + i2pconv('str4d.i2p') + '/talks/2016-uww-i2p-slides.odp' -%}
+Onions and Garlic: the protocols of I2P
+<a href="{{ link }}">(pdf)</a>
+<a href="{{ link2 }}">(odp)</a>
+str4d, COMPSCI 460: Computer Networking, University of Wisconsin Whitewater, February 17, 2016
+{%- endtrans %}</li>
+
+<li>{% trans link='https://video.fosdem.org/2018/H.1301%20(Cornil)/i2p.mp4',
+link2='https://video.fosdem.org/2018/H.1301%20(Cornil)/i2p.webm' -%}
+The Invisible Internet Project - An overview and guide to the technology
+<a href="{{ link }}">(mp4)</a>
+<a href="{{ link2 }}">(webm)</a>
+Andrew Savchenko (bircoph), FOSDEM, Brussel, February 4, 2018
+{%- endtrans %}</li>
+
+<li>{% trans link='https://archive.org/download/ournetworks2019/Our_Networks_2019_Mesh_Lightning_Talks_I2P_Intro_For_App_Devs_by_Idk_720p.mp4' -%}
+<a href="{{ link }}">Intro to I2P for App Developers (mp4)</a>
+idk
+{%- endtrans %}</li>
+
+<li>
+I2P, blockchain and the application (FOSDEM 2021)
+<a href="https://odysee.com/@diva.exchange:d/diva-exchange-fosdem-21:c">video</a>
+February 7, 2021
+</li>
+
+<li>
+Private, fully distributed exchange (DEX), Monero and I2P research results
+<a href="https://odysee.com/@diva.exchange:d/monerokon2022:0">video</a>
+MoneroKon 2022 Lisbon
+July 5, 2022
+</li>
+
+<li>
+DNS for I2P (FOSDEM 2023)
+<a href="https://odysee.com/@diva.exchange:d/diva-dns-i2p-fosdem2023:2">video</a>
+February 12, 2023
+</li>
+
+
+</ul>
+
+<h2>{{ _('Tutorials') }}</h2>
+<ul>
+
+<li>{% trans link='http://www.youtube.com/watch?v=5jv7tVVJdTQ' -%}
+<a href="{{ link }}">Felix Atari explains the basic principles of I2P</a>
+(Youtube Video)
+Agent Felix Atari of the Telecomix Crypto Munitions Bureau.
+By <a href="http://telecomix.org/">Telecomix</a>
+{%- endtrans %}</li>
+
+<li>{% trans link='http://www.youtube.com/watch?v=NV90TRs_pGE' -%}
+<a href="{{ link }}">Short garlic routing animation</a>
+(Youtube Video)
+Adrian Crenshaw.
+{% endtrans %}</li>
+
+</ul>
+
+<h2>{{ _('Articles and Interviews') }}</h2>
+<ul>
+
+<li>{% trans link1='http://invisibleip.sourceforge.net/iip/mediaDCInterview1.php',
+link2='http://invisibleip.sourceforge.net/iip/mediaDCInterview2.php' -%}
+Lance James (0x90) Interviewed by DistributedCity
+<a href="{{ link1 }}">Part 1</a>
+<a href="{{ link2 }}">Part 2</a>
+July 26, 2002.
+{%- endtrans %}</li>
+
+<li>{% trans link='http://invisibleip.sourceforge.net/iip/resources/elpais-iip.txt' -%}
+Lance James (0x90) Interviewed by El País
+(original in Spanish)
+<a href="{{ link }}">English translation</a>
+October 31, 2002.
+{%- endtrans %}</li>
+
+<li>{% trans link='http://www.bloomberg.com/bw/stories/2003-09-14/the-underground-internet' -%}
+<a href="{{ link }}">2003 Business Week article referencing invisiblenet</a>
+September 14, 2003.
+{%- endtrans %}</li>
+
+<li>{% trans link='http://www.netzwelt.de/news/75371-i2p-das-anonyme-netz-im.html' -%}
+<a href="{{ link }}">Netzwelt.de article about being anonymous in the Internet</a>
+(German)
+November 2007.
+{%- endtrans %}</li>
+
+<li>{% trans link='http://www.gulli.com/news/i2p-an-anonymous-network-2009-03-09/',
+german='http://www.gulli.com/news/i2p-anonymes-netzwerk-im-2009-03-09/' -%}
+<a href="{{ link }}">zzz interviewed by gulli.com</a>
+March 2009
+<a href="{{ german }}">German translation</a>
+{%- endtrans %}</li>
+
+<li>{% trans mp3='http://www.isdpodcast.com/podcasts/infosec-daily-podcast-episode-454.mp3' -%}
+<a href="{{ mp3 }}">zzz interviewed on the InfoSec Daily Podcast Ep. 454 (mp3)</a>
+August 18, 2011
+(link dead, seeded inside I2P at <a href="http://tracker2.postman.i2p/index.php?view=TorrentDetail&id=14336">postman's tracker</a>)
+{%- endtrans %}</li>
+
+<li>{% trans link='http://how-to.linuxcareer.com/i2p-anonymity-for-the-masses' -%}
+<a href="{{ link }}">I2P - Anonymity for the Masses</a>,
+Jonathan Cox,
+November 11, 2011.
+{%- endtrans %}</li>
+
+<li>{% trans mp3='http://www.isdpodcast.com/podcasts/infosec-daily-podcast-episode-596.mp3' -%}
+<a href="{{ mp3 }}">zzz and Lance James interviewed on the InfoSec Daily Podcast Ep. 596 (mp3)</a>
+February 16, 2012
+(link dead, seeded inside I2P at <a href="http://tracker2.postman.i2p/index.php?view=TorrentDetail&id=15905">postman's tracker</a>)
+{%- endtrans %}</li>
+
+<li>{% trans mp3='http://traffic.libsyn.com/brakeingsecurity/2015-010-I2P_dev_interview.mp3' -%}
+<a href="{{ mp3 }}">Jeff and Str4d interviewed on the Brakeing Down Security Podcast Ep. 2015-010 (mp3)</a>
+Part 1, February 28, 2015
+{%- endtrans %}</li>
+
+<li>{% trans mp3='http://traffic.libsyn.com/brakeingsecurity/2015-011-part2-i2p.mp3' -%}
+<a href="{{ mp3 }}">Jeff and Str4d interviewed on the Brakeing Down Security Podcast Ep. 2015-011 (mp3)</a>
+Part 2, March 6, 2015
+{%- endtrans %}</li>
+
+<li>{% trans link='http://fireside.disconnect.camp/2018/12/31/episode-18-lance-james/',
+  archive='https://web.archive.org/web/20190207113945/http://fireside.disconnect.camp/2018/12/31/episode-18-lance-james/',
+mp3='http://media.blubrry.com/firesidewithlei/s/fireside.disconnect.camp/wp-content/uploads/2019/01/LanceJames.mp3' -%}
+<a href="{{ link }}">Fireside With Lei - Episode 18: Lance James. Success, Failures, Grief and Buddhism.</a>
+<a href="{{ archive }}">(archive.org)</a>
+<a href="{{ mp3 }}">(mp3)</a>
+Robert Lei, December 31, 2018
+{%- endtrans %}</li>
+
+<li>{% trans mhatta='https://medium.com/@mhatta' -%}
+<a href="{{ mhatta }}">Articles by I2P contributor Masayuki Hatta on Medium.com</a>
+2019
+{% endtrans %}</li>>
+
+<li>{% trans ctrl='https://www.ctrl.blog/entry/proxy-pac-i2p-onion.html' -%}
+<a href="{{ ctrl }}">Enabling both .onion and .i2p routing with Proxy Auto-Configuration</a>
+Daniel Aleksandersen, February 7 2019
+{%- endtrans %}</li>
+
+<li>{% trans advent='https://www.heise.de/news/Open-Source-Adventskalender-Die-Darknets-Freenet-und-I2P-6302109.html' -%}
+<a href="{{ advent }}">Open-Source-Adventskalender: Die Darknets Freenet und I2P</a>
+Stefan Mey, December 21, 2021
+{%- endtrans %}</li>
+
+<li>
+<a href="https://torrentfreak.com/i2p-the-censorship-resistant-anonymous-p2p-network-is-20-years-old-220306/">I2P: The Censorship Resistant Anonymous P2P Network is 20 Years Old</a>
+- Interview with Lance James, zlatinb, and zzz -
+TorrentFreak,
+March 6, 2022
+</li>
+
+<li>
+Network Privacy via I2P -
+Interview with idk and Sadie -
+Opt Out Podcast Season 2 Episode 10
+(<a href="https://www.buzzsprout.com/1790481/10173995-network-privacy-via-i2p-w-idk-and-sadie.mp3">mp3</a>)
+(<a href="https://www.youtube.com/watch?v=-VqXfUxVQoA">YouTube Video</a>),
+March 6, 2022
+</li>
+
+<li>
+I2P and DIVA.EXCHANGE - Interview with Konrad
+(<a href="https://odysee.com/@diva.exchange:d/i2p-diva-exchange-2022-09-26:6">video</a>)
+September 26, 2022
+</li>
+
+<li>
+Interview with Sadie on I2P and the Free Internet
+(<a href="https://www.diva.exchange/en/privacy/i2p-and-the-free-internet-interview-with-a-community-member/">interview</a>)
+February 2024
+</li>
+
+<li>
+Interview with Phillip on I2P Network Reliability
+(<a href="https://www.diva.exchange/en/privacy/i2p-network-reliability-is-on-the-radar-of-the-academic-community/">interview</a>)
+March 2024
+</li>
+
+<li>
+Interview with IDK on I2P Development
+(<a href="https://www.diva.exchange/en/privacy/i2p-interview-with-the-developer-idk-part-1/">interview part 1</a>)
+July 2024;
+(<a href="https://www.diva.exchange/en/privacy/i2p-interview-with-the-developer-idk-part-2/">interview part 2</a>)
+September 2024
+</li>
+
+
+</ul>
+
+<h2>{{ _('Other') }}</h2>
+<ul>
+
+<li>{% trans -%}
+I2P mentioned in Netflix's "House of Cards" Season 2 Episode 2,
+February 14, 2014
+{%- endtrans %}</li>
+
+<li>{% trans meeh='https://github.com/mikalv/awesome-i2p' -%}
+<a href="{{ meeh }}">A curated list by I2P contributor meeh of I2P implementations, libraries, resources, projects, and shiny things</a>
+2019
+{%- endtrans %}</li>
+
+</ul>
+
+</div>
+{% endblock %}

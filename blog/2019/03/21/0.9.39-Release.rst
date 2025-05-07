@@ -1,0 +1,81 @@
+===========================================
+{% trans -%}0.9.39 Release{%- endtrans %}
+===========================================
+
+.. meta::
+   :author: zzz
+   :date: 2019-03-21
+   :category: release
+   :excerpt: {% trans %}0.9.39 with performance improvements{% endtrans %}
+
+{% trans -%}
+Update details
+{%- endtrans %}
+==============
+
+{% trans -%}
+0.9.39 includes extensive changes for the new network database types (proposal 123).
+We've bundled the i2pcontrol plugin as a webapp to support development of RPC applications.
+There are numerous performance improvements and bug fixes.
+{%- endtrans %}
+
+{% trans -%}
+We've removed the midnight and classic themes to reduce the maintenance burden;
+previous users of those themes will now see the dark or light theme.
+There's also new home page icons, a first step in updating the console.
+{%- endtrans %}
+
+{% trans -%}
+As usual, we recommend that you update to this release. The best way to
+maintain security and help the network is to run the latest release.
+{%- endtrans %}
+
+
+**{% trans %}RELEASE DETAILS{% endtrans %}**
+
+**{% trans %}Changes{% endtrans %}**
+
+- {% trans %}I2PControl RPC plugin bundled as a webapp{% endtrans %}
+- {% trans %}Encrypted LS2 support in floodfills (proposal 123){% endtrans %}
+- {% trans %}New option to disable NTCP1{% endtrans %}
+- {% trans %}Add offline key support in streaming{% endtrans %}
+
+
+**{% trans %}Bug Fixes{% endtrans %}**
+
+- {% trans %}Numerous LS2 fixes (proposal 123){% endtrans %}
+- {% trans %}Fixes for NTCP only (SSU disabled){% endtrans %}
+- {% trans %}Proxy fixes for websockets{% endtrans %}
+- {% trans %}Streaming fix for sending expired messages{% endtrans %}
+- {% trans %}SSU RTO/RTT calculation fixes{% endtrans %}
+- {% trans %}UPnP startup fixes{% endtrans %}
+- {% trans %}Fix connectivity test at startup{% endtrans %}
+
+
+**{% trans %}Other{% endtrans %}**
+
+- {% trans %}Remove classic and midnight themes{% endtrans %}
+- {% trans %}New console home page icons{% endtrans %}
+- {% trans %}Caching of outproxy selection{% endtrans %}
+- {% trans %}Transport performance improvements{% endtrans %}
+- {% trans %}Faster startup for i2ptunnel{% endtrans %}
+- Tomcat 8.5.38
+- {% trans %}Translation updates{% endtrans %}
+- {% trans %}Update GeoIP data{% endtrans %}
+
+
+`{% trans %}Full list of fixed bugs{% endtrans %}`__
+
+__ http://{{ i2pconv('trac.i2p2.i2p') }}/query?resolution=fixed&milestone=0.9.39
+
+
+**{% trans %}SHA256 Checksums:{% endtrans %}**
+
+::
+
+    61e2cd75553ba647c58960a2dc2ce099c857f25a8288439840194a6451df4502  i2pinstall_0.9.39_windows.exe
+    da5a5f094c6a6b0eb54f1233c1a8af0f1e0fc6a2fdb822a2ae3edbf47fca8c44  i2pinstall_0.9.39.jar
+    105773e11481cfcea0bc69b932895890ba5dd5e8d59ec322f06743bf2f15d211  i2psource_0.9.39.tar.bz2
+    77690f16b648258d18f0d7f0bd83458b2b46898cf9a1db77d49e31c7dbb546ab  i2pupdate_0.9.39.zip
+    1930910c0a5aa2fccc7a76676d8998e95eac473657857797f1660ad47124fe59  i2pupdate.su3
+

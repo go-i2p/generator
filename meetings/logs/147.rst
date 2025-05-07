@@ -1,0 +1,12 @@
+I2P dev meeting, September 13, 2005
+===================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+cervantes,
+jrandom,
+kbi,
+Myo9,

@@ -1,0 +1,15 @@
+I2P dev meeting, November 8, 2005
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+dust,
+frosk,
+jrandom,
+reliver,
+tealc\_,
+ZipTie,

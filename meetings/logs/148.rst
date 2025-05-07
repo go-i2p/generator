@@ -1,0 +1,15 @@
+I2P dev meeting, September 20, 2005 @ 20:00 UTC
+===============================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+Complication,
+forest,
+jrandom,
+Kefoo,
+postman,
+Ragnarok,

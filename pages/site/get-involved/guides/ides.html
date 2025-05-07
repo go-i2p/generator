@@ -1,0 +1,51 @@
+{% extends "global/layout.html" %}
+{% block title %}{{ _('Using an IDE with I2P') }}{% endblock %}
+{% block content %}
+<p>{% trans -%}
+The main I2P development branch (<code>i2p.i2p</code>) has been set up to enable developers to easily set up two of the commonly-used IDEs for Java development: Eclipse and NetBeans.
+{%- endtrans %}</p>
+
+<h2>Eclipse</h2>
+
+<p>{% trans -%}
+The main I2P development branches (<code>i2p.i2p</code> and branches from it) contain build.gradle to enable the branch to be easily set up in Eclipse.
+{%- endtrans %}</p>
+
+<ol>
+
+<li>{% trans -%}
+Make sure you have a recent version of Eclipse.  Anything newer than 2017 should do.
+{%- endtrans %}</li>
+
+<li>{% trans -%}
+Check out the I2P branch into some directory (e.g. <code>$HOME/dev/i2p.i2p</code>).
+{%- endtrans %}</li>
+
+<li>{% trans -%}
+Select "File - Import..." and then under "Gradle" select "Existing Gradle Project".
+{%- endtrans %}</li>
+
+<li>{% trans -%}
+For "Project root directory:" choose the directory that the I2P branch was checked out to.
+{%- endtrans %}</li>
+
+<li>{% trans -%}
+In the "Import Options" dialog, select "Gradle Wrapper" and press continue.
+{%- endtrans %}</li>
+
+<li>{% trans -%}
+In the "Import Preview" dialog you can review the project structure.  Multiple projects should appear under "i2p.i2p".  Press "Finish."
+{%- endtrans %}</li>
+
+<li>{% trans -%}
+Done! Your workspace should now contain all projects within the I2P branch, and their build dependencies should be correctly set up.
+{%- endtrans %}</li>
+
+</ol>
+
+<h2>NetBeans</h2>
+
+<p>{% trans -%}
+The main I2P development branches (<code>i2p.i2p</code> and branches from it) contain NetBeans project files.
+{%- endtrans %}</p>
+{% endblock %}

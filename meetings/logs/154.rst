@@ -1,0 +1,17 @@
+I2P dev meeting, November 1, 2005
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+brutus,
+cervantes,
+Complication,
+defnax,
+dust,
+jme\___,
+jrandom,
+polecat,
+redzara,

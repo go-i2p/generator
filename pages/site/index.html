@@ -1,0 +1,53 @@
+{% extends "global/layout.html" %}
+{% block title_outer %}{{ _('I2P Anonymous Network') }}{% endblock %}
+{% block title %}{{ _('The Invisible Internet Project') }}{% endblock %}
+{% block metadesc %}{{ _('Anonymous peer-to-peer distributed communication layer built with open source tools and designed to run any traditional Internet service such as email, IRC or web hosting.') }}{% endblock %}
+{% block content_outer %}
+<div class="main">
+  <!--<img src="{{ url_for('static', filename='images/pexels-jakub-novacek.jpg') }}" class="home_splash_image" />-->
+  <h1>{{ _('Welcome to the Invisible Internet') }}</h1>
+  <p>{% trans %}The Invisible Internet is a privacy by design, people-powered network. It is a truly free and anonymizing Internet alternative. Get I2P.
+  {% endtrans %}</p>
+  <a class="get-i2p" href="{{ url_for('downloads_list', lang=g.lang) }}">{% trans version=ver() %}Get I2P {{ version }}{% endtrans %}</a>
+</div>
+<div class="aside-wrap">
+  <div class="aside">
+    <h1>{% trans %}What is I2P?{% endtrans %}</h1>
+    <ul>
+      <li>{% trans %}
+        The Invisible Internet Project (I2P) is a fully encrypted private network layer.
+        It protects your activity and location. Every day people use the network to connect
+        with people without worry of being tracked or their data being collected. In some
+        cases people rely on the network when they need to be discrete or are doing sensitive work.{%- endtrans %}</li>
+    </ul>
+    <h1>{% trans %}I2P Cares About Privacy{% endtrans %}</h1>
+    <ul>
+      <li>{% trans %}I2P hides the server from the user and the user from the server. All I2P traffic is internal to the I2P network. Traffic inside I2P does not interact with the Internet directly. It is a layer on top of the Internet. It uses encrypted unidirectional tunnels between you and your peers. No one can see where traffic is coming from, where it is going, or what the contents are. Additionally I2P offers resistance to pattern recognition and blocking by censors. Because the network relies on peers to route traffic, location blocking is also reduced.{%- endtrans %}</li>
+      <li>
+        <a href="{{ site_url('about/intro') }}"><em>{% trans %}Read more&hellip;{% endtrans %}</em></a>
+      </li>
+    </ul>
+  </div>
+  <div class="aside">
+    <h1>{% trans %}Peer-to-Peer{% endtrans %}</h1>
+    <p>{% trans %}The network is people powered . Peers make a portion of their resources, particularly bandwidth, available to other network participants. This allows the network to function without relying on centralized servers.{% endtrans %} <a href="{{ site_url('docs/protocol') }}">{% trans %}Learn more about the Protocol Stack{% endtrans %}</a>.</p>
+
+    <h1>{% trans %}Privacy and Security By Design{% endtrans %}</h1>
+    <p>{% trans %}I2P has created transport protocols that resist DPI censorship, and continuously improves its end to end encryption.{% endtrans %}
+    <a href="{{ site_url('docs/transport') }}">{% trans %}Read the I2P Transport Overview{% endtrans %}</a>.</p>
+
+    <h1>{% trans %}Built For Communication{% endtrans %}</h1>
+    <p>{% trans %}I2P has an application layer with easy to use {% endtrans %}<a href="{{ site_url('docs/api/i2ptunnel') }}">{% trans %}APIs for creating your own privacy - aware apps.{% endtrans %}</a></p>
+  </div>
+  <div class="aside">
+    <a href="{{ url_for('blog_atom', lang=g.lang) }}" class="feed-icon" title="{{ _('I2P Blog ATOM Feed') }}">{{ _('I2P Blog ATOM Feed') }}</a>
+    <h1>{% trans %}News &amp; Updates{% endtrans %}</h1>
+      {% include "blog/latest.html" %}
+  </div>
+  <div id="herocredit">
+    <a href="https://pixabay.com/users/montevideo-5677795/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3621630%22%3EMontevideo">Hero Image courtesy of Pixabay artist Montevideo</a></br>
+    <!--<a href="https://decentpatterns.xyz/report/#key-terms">*Further information about decentralized principles collated by DOTS(Decentralization Off-The-Shelf) study</a>-->
+  </div>
+</div>
+
+{% endblock %}

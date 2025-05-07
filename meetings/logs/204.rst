@@ -1,0 +1,12 @@
+I2P dev meeting, March 27, 2007
+===============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+cervantes,
+Complication,
+jrandom,
+TrevorReznik,

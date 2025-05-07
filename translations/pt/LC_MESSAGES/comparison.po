@@ -1,0 +1,968 @@
+# Portuguese translations for I2P.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the I2P project.
+#
+# Translators:
+# Manuela Silva <mmsrs@sky.com>, 2017-2018
+msgid ""
+msgstr ""
+"Project-Id-Version:  I2P\n"
+"Report-Msgid-Bugs-To: http://trac.i2p2.de\n"
+"POT-Creation-Date: 2022-08-21 15:32+0000\n"
+"PO-Revision-Date: 2013-07-15 11:59+0000\n"
+"Last-Translator: Manuela Silva <mmsrs@sky.com>, 2017-2018\n"
+"Language-Team: Portuguese (http://app.transifex.com/otf/I2P/language/pt/)"
+"\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+
+#: i2p2www/pages/site/comparison/freenet.html:2
+msgid "I2P Compared to Freenet"
+msgstr "I2P Comparado para Freenet"
+
+#: i2p2www/pages/site/comparison/freenet.html:8
+msgid ""
+"Freenet is a fully distributed, peer to peer anonymous publishing "
+"network, offering \n"
+"secure ways to store data, as well as some approaches attempting to "
+"address the loads\n"
+"of a flash flood.  While Freenet is designed as a distributed data store,"
+" people have\n"
+"built applications on top of it to do more generic anonymous "
+"communication, such as \n"
+"static websites and message boards."
+msgstr ""
+"A Freenet é uma rede p2p de publicação anônima, completamente "
+"distribuída, que oferece meios seguros para o armazenamento de dados, bem"
+" como algumas abordagens que tentam lidar com o problema de sobrecarga "
+"por inundação. Ainda que a Freenet tenha sido projetada como um sistema "
+"de armazenamento distribuído, há quem use a Freenet para aplicações que "
+"visam uma comunicação anônima mais geral, tais como websites e fóruns."
+
+#: i2p2www/pages/site/comparison/freenet.html:16
+#, python-format
+msgid ""
+"Compared to I2P, Freenet offers some substantial benefits - it is a "
+"distributed data\n"
+"store, while I2P is not, allowing people to retrieve the content "
+"published by others \n"
+"even when the publisher is no longer online.  In addition, it should be "
+"able to \n"
+"distribute popular data fairly efficiently.  I2P itself does not and will"
+" not provide \n"
+"this functionality.  On the other hand, there is overlap for users who "
+"simply want to \n"
+"communicate with each other anonymously through websites, message boards,"
+" file sharing\n"
+"programs, etc.  There have also been some attempts to develop a "
+"distributed data \n"
+"store to run on top of I2P,\n"
+"(most recently a port of <a href=\"%(tahoe)s\">Tahoe-LAFS</a>)\n"
+"but nothing is yet ready for general use."
+msgstr ""
+"Comparada a I2P, a Freenet oferece alguns benefícios substanciais - é um "
+"sistema de armazenamento distribuído, ao passo que a I2P não é, "
+"permitindo que pessoas recuperem o conteúdo publicado por outros mesmo "
+"que o responsável pela publicação não esteja online. Adicionalmente, "
+"parece ser capaz de distribuir informações populares de maneira "
+"satisfatoriamente eficiente. A I2P não possui e não possuirá esta "
+"funcionalidade. Por outro lado, há uma rede de sobreposição para usuários"
+" que querem tão somente comunicarem-se anonimamente através de websites, "
+"fóruns de discussão, programas de compartilhamento de arquivos etc.  Há "
+"também algumas tentativas de desenvolver um sistema de armazenamento "
+"distribuído para funcionar sobre a infraestrutura da I2P, (a mais recente"
+" é um porte do <a href=\"%(tahoe)s\">Tahoe-LAFS</a>) mas nada ainda "
+"pronto para uso geral."
+
+#: i2p2www/pages/site/comparison/freenet.html:29
+msgid ""
+"However, even ignoring any implementations issues, there are some "
+"concerns \n"
+"about Freenet's algorithms from both a scalability and anonymity "
+"perspective, owing \n"
+"largely to Freenet's heuristic driven routing.  The interactions of "
+"various techniques \n"
+"certainly may successfully deter various attacks, and perhaps some "
+"aspects of the \n"
+"routing algorithms will provide the hoped for scalability.  "
+"Unfortunately, not much\n"
+"analysis of the algorithms involved has resulted in positive results, but"
+" there is still\n"
+"hope.  At the very least, Freenet does provide substantial anonymity "
+"against an attacker\n"
+"who does not have the resources necessary to analyze it further."
+msgstr ""
+"Contudo, mesmo ignorando quaisquer problemas de implementação, ainda há "
+"algumas preocupações \n"
+"em relação aos algoritmos da Freenet tanto de uma perspectiva de "
+"anonimato quanto de escalabilidade, decorrentes \n"
+"sobretudo do roteamento dirigido por heurística da Freenet. As interações"
+" de várias técnicas \n"
+"certamente podem ter sucesso em deter vários ataques, e talvez alguns "
+"aspectos dos \n"
+"algoritmos de roteamento proporcionarão o esperado para a escalabilidade."
+" Infelizmente, não muita da\n"
+"análise dos algoritmos envolvidos tem tido resultados positivos, mas "
+"ainda há\n"
+"esperança. Para dizer o mínimo, a Freenet oferece anonimato substancial "
+"contra um atacante \n"
+"que não possui os recursos necessários para analisar além."
+
+#: i2p2www/pages/site/comparison/index.html:2
+msgid "Comparing I2P to other projects"
+msgstr "A comparar I2P para outros projetos"
+
+#: i2p2www/pages/site/comparison/index.html:4
+msgid ""
+"There are a great many other applications and projects working on "
+"anonymous \n"
+"communication and I2P has been inspired by much of their efforts.  This "
+"is not \n"
+"a comprehensive list of anonymity resources - both freehaven's \n"
+"<a href=\"http://freehaven.net/anonbib/topic.html\">Anonymity "
+"Bibliography</a>\n"
+"and GNUnet's <a href=\"https://www.gnunet.org/links/\">related "
+"projects</a>\n"
+"serve that purpose well.  That said, a few systems stand out for further\n"
+"comparison. The following have individual comparison pages:"
+msgstr ""
+"Há muitos outros excelentes aplicativos e projetos trabalhando com "
+"comunicação anônima e a I2P tem se inspirado em muitos desses esforços. "
+"Esta não é uma lista abrangente de recursos de anonimato - tanto a <a "
+"href=\"http://freehaven.net/anonbib/topic.html\">bibliografia sobre "
+"anonimato do Freehaven</a> bem como a relação de <a "
+"href=\"https://www.gnunet.org/links/\">projetos correlatos ao GNUnet</a> "
+"servem pra esse propósito. Isso dito, alguns sistemas merecem "
+"comparações. Os seguintes são comparados em páginas em separado:"
+
+#: i2p2www/pages/site/comparison/index.html:20
+#, python-format
+msgid ""
+"The following are discussed on the <a href=\"%(othernetworks)s\">other "
+"networks page:</a>"
+msgstr ""
+"O seguinte é discutido em <a href=\"%(othernetworks)s\">outra página de "
+"redes:</a>"
+
+#: i2p2www/pages/site/comparison/index.html:33
+#, python-format
+msgid ""
+"The content of this page is subject to update, discussion and dispute, "
+"and we welcome comments and additions.\n"
+"You may contribute an analysis by entering a <a href=\"%(trac)s\">new "
+"issue on Github</a>."
+msgstr ""
+"O conteúdo desta página está sujeito a atualizações, discussões e "
+"disputa, e comentários e adições são bem-vindos.\n"
+"Você pode contribuir uma análise criando uma <a href=\"%(trac)s\">nova "
+"\"issue\" no Github</a>."
+
+#: i2p2www/pages/site/comparison/other-networks.html:2
+msgid "I2P Compared to Other Anonymous Networks"
+msgstr "I2P Comparado para Outras Redes Anónimas "
+
+#: i2p2www/pages/site/comparison/other-networks.html:5
+msgid "The following networks are discussed on this page."
+msgstr "As redes seguintes são discutidas nesta página."
+
+#: i2p2www/pages/site/comparison/other-networks.html:17
+#, python-format
+msgid ""
+"Most of the following sections are fairly old, and may not be accurate.\n"
+"For an overview of available comparisons, see the\n"
+"<a href=\"%(comparison)s\">main network comparisons page</a>.\n"
+"You may contribute an analysis by entering a\n"
+"<a href=\"%(trac)s\">new issue on Github</a>."
+msgstr ""
+"A maioria das seções a seguir são consideravelmente antigas, e podem "
+"estar imprecisas.\n"
+"Para uma visão geral das comparações disponíveis, veja a\n"
+"<a href=\"%(comparison)s\">página principal de comparações de redes</a>.\n"
+"Você pode contribuir uma análise criando uma\n"
+"<a href=\"%(trac)s\">nova \"issue\" no Github</a>."
+
+#: i2p2www/pages/site/comparison/other-networks.html:29
+#, python-format
+msgid ""
+"RetroShare is a set of peer-to-peer applications running in a\n"
+"<a href=\"%(f2fwiki)s\">Friend-to-friend (F2F)</a> network. Each peer of "
+"such F2F \n"
+"network makes direct IP connections only to authenticated peers "
+"(\"friends\") after explicit \n"
+"certificates exchange. It can discover unauthenticated peers (e.g. "
+"friends of friends), \n"
+"but connections to them are relayed over \"friend\" peers for providing "
+"privacy and anonymity."
+msgstr ""
+"RetroShare é um conjunto de aplicações peer-to-peer (\"par a par\") sendo"
+" executadas em uma rede\n"
+"<a href=\"%(f2fwiki)s\">Friend-to-friend (F2F)</a>, \"amigo a amigo\". "
+"Cada par de tal rede F2F \n"
+"realiza conexões IP diretas apenas para pares autenticados (\"amigos\") "
+"após troca \n"
+"explícita de certificados. Ela consegue descobrir pares não autenticados "
+"(amigos de amigos, por exemplo), \n"
+"mas conexões até eles são repassadas através de pares \"amigos\" para "
+"proporcionar privacidade e anonimato."
+
+#: i2p2www/pages/site/comparison/other-networks.html:37
+msgid ""
+"RetroShare is designed to build a private network of trusted peers, while"
+" I2P is designed \n"
+"to be a large-scaled public anonymous network. Recent versions of "
+"RetroShare have options to run \n"
+"as a public \"darknet\" by using I2P or Tor as a transport. That way all "
+"connections are \n"
+"anonymized and no trust is required for adding new \"friends\"."
+msgstr ""
+"O RetroShare é projetado para construir uma rede privada de pares de "
+"confiança, enquanto a I2P é projetada \n"
+"para ser uma rede anônima pública de larga escala. Versões recentes do "
+"RetroShare incluem opções para executar \n"
+"como uma \"darknet\" pública usando a I2P ou o Tor como transporte. Dessa"
+" forma, todas as conexões são \n"
+"anonimizadas e nenhuma confiança é necessária para adicionar novos "
+"\"amigos\"."
+
+#: i2p2www/pages/site/comparison/other-networks.html:48
+#, python-format
+msgid ""
+"Morphmix and Tarzan are both fully distributed, peer to peer networks of"
+" \n"
+"anonymizing proxies, allowing people to tunnel out through the low "
+"latency \n"
+"mix network.  Morphmix includes some very interesting collusion detection"
+" \n"
+"algorithms and Sybil defenses, while Tarzan makes use of the scarcity of "
+"IP\n"
+"addresses to accomplish the same.  The two primary differences between \n"
+"these systems and I2P are related to I2P's <a "
+"href=\"%(threatmodel)s\">threat model</a> \n"
+"and their out-proxy design (as opposed to providing both sender and "
+"receiver \n"
+"anonymity).  There is source code available to both systems, but we are "
+"not aware \n"
+"of their use outside of academic environments."
+msgstr ""
+"A Morphmix e a Tarzan são ambas redes peer-to-peer inteiramente "
+"distribuídas de \n"
+"proxies anonimizantes, permitindo que as pessoas saiam por túneis pela "
+"rede mista \n"
+"de baixa latência. A Morphmix inclui alguns algoritmos de detecção de "
+"conluio \n"
+"e defesas contra ataques Sybil muito interessantes, enquanto a Tarzan faz"
+" uso da escassez de endereços\n"
+"IP para alcançar o mesmo. As duas diferenças primárias entre \n"
+"esses sistemas e a I2P estão relacionados ao<a "
+"href=\"%(threatmodel)s\">modelo de ameaça</a> da I2P \n"
+"e seus designs de proxy de saída (em oposição a oferecer anonimato tanto "
+"para o remetente quando para o \n"
+"destinatário). Há código fonte disponível para ambos os sistemas, mas nós"
+" não estamos a par \n"
+"do seu uso fora de ambientes acadêmicos."
+
+#: i2p2www/pages/site/comparison/other-networks.html:172
+#, python-format
+msgid ""
+"\n"
+"Mixminion and Mixmaster are networks to support anonymous email against a"
+" very\n"
+"powerful adversary.\n"
+"High-latency messaging applications running on top of I2P\n"
+"(for example <a href=\"%(syndie)s\">Syndie</a> or I2PBote)\n"
+"may perhaps prove adequate to meet the threat\n"
+"model of those adversaries, while running in parallel along side the "
+"needs of low latency users, to provide\n"
+"a significantly larger anonymity set.\n"
+"High-latency support within the I2P router itself may or may not be added"
+" in a distant future release.\n"
+"It is too early to say if I2P will meet the needs of users requiring "
+"extreme protection for email."
+msgstr ""
+"\n"
+"A Mixminion e a Mixmaster são redes para dar suporte a email anônimo "
+"contra um adversário\n"
+"muito poderoso.\n"
+"Aplicações de mensagens de alta latência executando sobre a I2P\n"
+"(por exemplo, <a href=\"%(syndie)s\">Syndie</a> ou I2PBote)\n"
+"podem talvez ser adequadas para atender ao modelo de\n"
+"ameaça desses adversários, executando em paralelo de acordo com as "
+"necessidades de usuários de baixa latência, para fornecer\n"
+"um conjunto de anonimato significativamente maior.\n"
+"Suporte a alta latência dentro do próprio roteador I2P pode ou não ser "
+"adicionado em uma versão futura distante.\n"
+"É muito cedo para dizer se a I2P atenderá às necessidades de usuários que"
+" requerem proteção extrema para email."
+
+#: i2p2www/pages/site/comparison/other-networks.html:184
+msgid ""
+"As with Tor and Onion Routing, \n"
+"both Mixminion and Mixmaster take the directory based approach as well."
+msgstr ""
+"Assim como o Tor e o Roteamento Alho,\n"
+"tanto o Mixminion quanto o Mixmaster se baseiam na abordagem de "
+"diretórios."
+
+#: i2p2www/pages/site/comparison/other-networks.html:194
+#, python-format
+msgid ""
+"JAP (Java Anonymous Proxy) is a network of mix cascades for anonymizing "
+"web requests,\n"
+"and as such it has a few centralized nodes (participants in the cascade) "
+"that blend\n"
+"and mix requests from clients through the sequence of nodes (the cascade)"
+" before \n"
+"proxying out onto the web.  The scope, threat model, and security is "
+"substantially \n"
+"different from I2P, but for those who don't require significant anonymity"
+" but still\n"
+"are not satisfied with an Anonymizer-like service, JAP is worth "
+"reviewing.  One\n"
+"caution to note is that anyone under the jurisdiction of the German "
+"courts may want\n"
+"to take care, as the German Federal Bureau of Criminal Investigation "
+"(FBCI) has \n"
+"successfully mounted an \n"
+"<a href=\"%(url)s\">attack</a> \n"
+"on the network.  Even though the method of this attack was later found to"
+" be illegal \n"
+"in the German courts, the fact that the data was successfully collected "
+"is the \n"
+"concern.  Courts change their minds based upon circumstance, and this is "
+"evidence that \n"
+"if a government body or intelligence agency wanted to, they could gather "
+"the data, even \n"
+"if it may be found inadmissible in some courts later)"
+msgstr ""
+"A JAP (Java Anonymous Proxy) é uma rede de cascatas de mistura para "
+"anonimizar requisições web,\n"
+"e como tal ela possui alguns nodos centralizados (participantes na "
+"cascata) que diluem\n"
+"e misturam requisições de clientes ao longo da sequência de nodos (a "
+"cascata) antes \n"
+"de sair por um proxy para a web. O escopo, modelo de ameaça, e segurança "
+"são substancialmente \n"
+"diferentes da I2P, mas para aqueles que não necessitam de anonimato "
+"significativo mas ainda\n"
+"não estão satisfeitos com um serviço do tipo anonimizador, a JAP vale a "
+"pena ser avaliada. Um \n"
+"cuidado a notar é que qualquer um sob jurisdição das cortes alemãs pode "
+"querer \n"
+"tomar cuidado, já que o Birô Federal de Investigação Criminal alemão "
+"(FBCI) \n"
+"montou com sucesso um \n"
+"<a href=\"%(url)s\">ataque</a> \n"
+"na rede. Ainda que o método desse ataque foi depois determinado como "
+"ilegal \n"
+"nas cortes alemãs, o fato de que os dados foram coletados com sucesso é o"
+" \n"
+"preocupante. Cortes mudam de ideia com base em circunstâncias, e isso é "
+"evidência de que \n"
+"se uma instituição governamental ou uma agência de inteligência quisesse,"
+" eles conseguiriam coletar os dados, mesmo \n"
+"que isso possa ser determinado inadmissível em algumas cortes depois."
+
+#: i2p2www/pages/site/comparison/other-networks.html:216
+#, python-format
+msgid ""
+"Both of these systems work through the same basic \n"
+"<a href=\"%(antnet)s\">antnet</a> routing, providing some degree of\n"
+"anonymity based on the threat model of providing plausible deniability "
+"against a simple \n"
+"non-colluding adversary.  With the antnet routing, they first either do a"
+" random walk or a \n"
+"broadcast search to find some peer with the data or identity desired, and"
+" then use a feedback\n"
+"algorithm to optimize that found path.  This works well for applications "
+"that merely want to know \n"
+"what other people around them have to offer - \"How are y'all doing\" vs."
+" \"Hey Alice, how are you\" - \n"
+"you basically get a local cluster of nodes that can share files with and "
+"maintain some degree of \n"
+"anonymity (though you don't have much control over who is in that group "
+"of peers)."
+msgstr ""
+"Ambos esses sistemas funcionam por meio do mesmo roteamento \n"
+"de <a href=\"%(antnet)s\">rede de formiga</a> básico, fornecendo certo "
+"grau de\n"
+"anonimato baseado no modelo de ameaça de oferecer negação plausível "
+"contra um adversário \n"
+"simples que não está em conluio. No roteamento de rede de formiga, eles "
+"primeiro fazem ou um percurso aleatório ou uma \n"
+"busca por transmissão para encontrar algum par com os dados ou com a "
+"identidade desejada, e então usam um algoritmo\n"
+"de retroalimentação para otimizar o caminho encontrado. Isso funciona bem"
+" para aplicações que meramente querem saber \n"
+"o que outras pessoas ao seu redor têm a oferecer - \"Como vocês estão\" "
+"vs. \"Ei, Alice, como você está?\" - \n"
+"você basicamente obtém um aglomerado de nodos com os quais você pode "
+"compartilhar arquivos e manter algum grau de \n"
+"anonimato (embora você não tenha muito controle sobre quem está nesse "
+"grupo de pares)."
+
+#: i2p2www/pages/site/comparison/other-networks.html:228
+msgid ""
+"However, the algorithm does not scale well at all - if the application "
+"wants to speak with a \n"
+"particular peer it ends up doing a broadcast search or random walk "
+"(though if they are lucky enough\n"
+"for that to succeed, the antnet routing should optimize that found "
+"connection).  This means that \n"
+"while these networks can work great at small scales, they are not "
+"suitable for large networks where\n"
+"someone wants to get in touch with another specific peer.  That does not "
+"mean that there is no \n"
+"value in these systems, just that their applicability is limited to "
+"situations where their \n"
+"particular issues can be addressed."
+msgstr ""
+"Contudo, o algoritmo não escala nem um pouco bem - se a aplicação deseja "
+"falar com um \n"
+"determinado par, ela acaba fazendo uma busca por transmissão ou um "
+"percurso aleatório (apesar de que se você tiver sorte o suficiente\n"
+"para isso dar certo, o roteamento de rede de formiga deveria otimizar a "
+"conexão encontrada).  Isso significa que \n"
+"ao passo em que essas redes podem funcionar muito bem em pequenas "
+"escalas, elas não são adequadas para redes grandes onde\n"
+"alguém deseja se comunicar com outro par específico. Isso não significa "
+"que não há valor \n"
+"algum nesses sistemas, mas apenas que a sua aplicabilidade é limitada a "
+"situações onde suas \n"
+"questões particulares podem ser abordadas."
+
+#: i2p2www/pages/site/comparison/other-networks.html:239
+#, python-format
+msgid ""
+"This was a closed-source network targeted at Iranian users.\n"
+"Tor did a <a href=\"%(torpost)s\">good writeup on what to look for in a "
+"circumvention tool</a>.\n"
+"Suffice it to say that being closed source and publicly targeting a "
+"specific country are not good ideas.\n"
+"I2P is, of course, open source. However, that source, and our\n"
+"<a href=\"%(docs)s\">technical documentation</a>, need much more review."
+msgstr ""
+"Essa foi uma rede de código fechado visando usuários iranianos.\n"
+"O Tor fez um <a href=\"%(torpost)s\">bom artigo sobre por o que procurar "
+"em uma ferramenta de contorno</a>.\n"
+"Basta dizer que ser de código fechado e visar um país específico "
+"publicamente não são boas ideias.\n"
+"A I2P é, claro, de código aberto. Contudo, esse código, e nossa\n"
+"<a href=\"%(docs)s\">documentação técnica</a>, precisam de muito mais "
+"revisão."
+
+#: i2p2www/pages/site/comparison/other-networks.html:248
+msgid "Paid VPN Services"
+msgstr "Serviços VPN Pagos"
+
+#: i2p2www/pages/site/comparison/other-networks.html:249
+#: i2p2www/pages/site/comparison/other-networks.html:255
+#, python-format
+msgid ""
+"You may contribute an analysis by entering a\n"
+"<a href=\"%(trac)s\">new issue on Github</a>."
+msgstr ""
+"Você pode contribuir uma análise criando uma\n"
+"<a href=\"%(trac)s\">nova \"issue\" no Github</a>."
+
+#: i2p2www/pages/site/comparison/other-networks.html:254
+msgid "Others"
+msgstr "Outros"
+
+#: i2p2www/pages/site/comparison/tor.html:2
+msgid "I2P Compared to Tor"
+msgstr "I2P Comparado para Tor"
+
+#: i2p2www/pages/site/comparison/tor.html:3
+msgid "November 2016"
+msgstr "Novembro de 2016"
+
+#: i2p2www/pages/site/comparison/tor.html:9
+#, python-format
+msgid ""
+"Tor and Onion Routing are both anonymizing proxy networks, \n"
+"allowing people to tunnel out through their low latency mix \n"
+"network. The two primary differences between Tor / \n"
+"Onion-Routing and I2P are again related to differences in \n"
+"the threat model and the out-proxy design (though Tor\n"
+"supports hidden services as well).  In addition, Tor\n"
+"takes the directory-based approach - providing a \n"
+"centralized point to manage the overall 'view' of the \n"
+"network, as well as gather and report statistics, as \n"
+"opposed to I2P's distributed <a href=\"%(netdb)s\">network \n"
+"database</a> and <a href=\"%(peerselection)s\">peer selection</a>."
+msgstr ""
+"O Tor e o Roteamento Cebola são ambos redes de proxies para anonimato, e "
+"permitem que pessoas se comuniquem por meio de tunelamento nas suas redes"
+" mix de baixa latência. As duas principais diferenças entre Tor / "
+"Roteamento-Cebola e I2P estão, novamente, relacionadas a diferenças no "
+"modelo de risco e no projeto do proxy de saída (ainda que o Tor também "
+"suporte serviços ocultos). Adicionalmente, o Tor se vale da abordagem "
+"baseada em diretórios - fornecendo um ponto centralizado para gerenciar a"
+" 'visão' global da rede, bem como para recolher e reportar estatísticas, "
+"em oposição ao <a href=\"%(netdb)s\">banco de dados da rede</a> I2P, que "
+"é distribuído, e a <a href=\"%(peerselection)s\">seleção de pares</a>."
+
+#: i2p2www/pages/site/comparison/tor.html:23
+msgid ""
+"The I2P/Tor outproxy functionality does have a few \n"
+"substantial weaknesses against certain attackers - \n"
+"once the communication leaves the mixnet, global passive\n"
+"adversaries can more easily mount traffic analysis.  In \n"
+"addition, the outproxies have access to the cleartext \n"
+"of the data transferred in both directions, and \n"
+"outproxies are prone to abuse, along with all of the \n"
+"other security issues we've come to know and love with \n"
+"normal Internet traffic."
+msgstr ""
+"A funcionalidade de proxy de saída da/o I2P/Tor possuem algumas fraquezas"
+" substanciais contra certos atacantes - uma vez que a comunicação deixe a"
+" rede mix, adversários compassivos globais podem mais facilmente "
+"perpetrar análise de tráfego. Ademais, os proxies de saída possuem acesso"
+" ao texto puro dos dados transferidos em ambas direções, e proxies de "
+"saída são inclinados a aproveitar, levando em conta todos os outros "
+"problemas de segurança que viemos a conhecer e apreciar com o tráfego da "
+"Internet comum."
+
+#: i2p2www/pages/site/comparison/tor.html:35
+msgid ""
+"However, many people don't need to worry about those \n"
+"situations, as they are outside their threat model.  It\n"
+"is, also, outside I2P's (formal) functional scope (if people want\n"
+"to build outproxy functionality on top of an anonymous\n"
+"communication layer, they can).  In fact, some I2P users\n"
+"currently take advantage of Tor to outproxy."
+msgstr ""
+"Todavia, muitas pessoas não precisam se preocupar com essas situações, "
+"haja visto que estão fora do seu modelo de risco. E está, também, fora do"
+" escopo funcional (formal) da I2P (se alguém quiser construir a "
+"funcionalidade de proxy de saída no topo da camada de comunicação, pode "
+"fazê-lo). Na verdade, alguns usuários da I2P aproveitam atualmente essa "
+"vantagem do Tor para proxy de saída."
+
+#: i2p2www/pages/site/comparison/tor.html:49
+msgid "Comparison of Tor and I2P Terminology"
+msgstr "Comparação para Terminologia de Tor e I2P"
+
+#: i2p2www/pages/site/comparison/tor.html:50
+msgid ""
+"While Tor and I2P are similar in many ways, much of the terminology is "
+"different."
+msgstr ""
+"As redes Tor e I2P são semelhantes em muitos aspectos, mas muito da "
+"terminologia é diferente."
+
+#: i2p2www/pages/site/comparison/tor.html:55
+msgid "Cell"
+msgstr "Célula"
+
+#: i2p2www/pages/site/comparison/tor.html:55
+msgid "Message"
+msgstr "Mensagem"
+
+#: i2p2www/pages/site/comparison/tor.html:56
+msgid "Client"
+msgstr "Cliente"
+
+#: i2p2www/pages/site/comparison/tor.html:56
+msgid "Router or Client"
+msgstr "Roteador ou Cliente"
+
+#: i2p2www/pages/site/comparison/tor.html:57
+msgid "Circuit"
+msgstr "Circuito"
+
+#: i2p2www/pages/site/comparison/tor.html:57
+msgid "Tunnel"
+msgstr "Túnel"
+
+#: i2p2www/pages/site/comparison/tor.html:58
+msgid "Directory"
+msgstr "Diretoria"
+
+#: i2p2www/pages/site/comparison/tor.html:58
+msgid "NetDb"
+msgstr "NetDb"
+
+#: i2p2www/pages/site/comparison/tor.html:59
+msgid "Directory Server"
+msgstr "Servidor de Diretoria"
+
+#: i2p2www/pages/site/comparison/tor.html:59
+msgid "Floodfill Router"
+msgstr "Roteador baseado em Preenchimento por Inundação"
+
+#: i2p2www/pages/site/comparison/tor.html:60
+msgid "Entry Guards"
+msgstr "Guardiões de Acesso"
+
+#: i2p2www/pages/site/comparison/tor.html:60
+msgid "Fast Peers"
+msgstr "Pares rápidos"
+
+#: i2p2www/pages/site/comparison/tor.html:61
+msgid "Entry Node"
+msgstr "Nodo de Entrada"
+
+#: i2p2www/pages/site/comparison/tor.html:61
+msgid "Inproxy"
+msgstr "Proxy de entrada"
+
+#: i2p2www/pages/site/comparison/tor.html:62
+msgid "Exit Node"
+msgstr "Nodo de Saída"
+
+#: i2p2www/pages/site/comparison/tor.html:62
+msgid "Outproxy"
+msgstr "Proxy de saída"
+
+#: i2p2www/pages/site/comparison/tor.html:63
+#: i2p2www/pages/site/comparison/tor.html:68
+msgid "Hidden Service"
+msgstr "Serviço Oculto"
+
+#: i2p2www/pages/site/comparison/tor.html:63
+#: i2p2www/pages/site/comparison/tor.html:68
+msgid "I2P Site or Destination"
+msgstr "Site ou Destino I2P"
+
+#: i2p2www/pages/site/comparison/tor.html:64
+msgid "Hidden Service Descriptor"
+msgstr "Descritor de serviço oculto"
+
+#: i2p2www/pages/site/comparison/tor.html:64
+msgid "LeaseSet"
+msgstr "LeaseSet"
+
+#: i2p2www/pages/site/comparison/tor.html:65
+msgid "Introduction point"
+msgstr "Ponto de entrada"
+
+#: i2p2www/pages/site/comparison/tor.html:65
+msgid "Inbound Gateway"
+msgstr "Ponto de entrada"
+
+#: i2p2www/pages/site/comparison/tor.html:66
+msgid "Node"
+msgstr "Nodo"
+
+#: i2p2www/pages/site/comparison/tor.html:66
+#: i2p2www/pages/site/comparison/tor.html:69
+#: i2p2www/pages/site/comparison/tor.html:72
+msgid "Router"
+msgstr "Roteador"
+
+#: i2p2www/pages/site/comparison/tor.html:67
+msgid "Onion Proxy"
+msgstr "Proxy Cebola"
+
+#: i2p2www/pages/site/comparison/tor.html:67
+msgid "I2PTunnel Client (more or less)"
+msgstr "Cliente de túnel I2P (mais ou menos)"
+
+#: i2p2www/pages/site/comparison/tor.html:68
+msgid "Onion Service"
+msgstr "Serviço Onion"
+
+#: i2p2www/pages/site/comparison/tor.html:69
+msgid "Relay"
+msgstr "Retransmitir"
+
+#: i2p2www/pages/site/comparison/tor.html:70
+msgid "Rendezvous Point"
+msgstr "Ponto de rendezvous"
+
+#: i2p2www/pages/site/comparison/tor.html:70
+msgid "somewhat like Inbound Gateway + Outbound Endpoint"
+msgstr "um pouco como Inbound Gateway + Outbound Endpoint"
+
+#: i2p2www/pages/site/comparison/tor.html:71
+msgid "Router Descriptor"
+msgstr "Descritor do Roteador "
+
+#: i2p2www/pages/site/comparison/tor.html:71
+msgid "RouterInfo"
+msgstr "Informação do Roteador"
+
+#: i2p2www/pages/site/comparison/tor.html:72
+msgid "Server"
+msgstr "Servidor"
+
+#: i2p2www/pages/site/comparison/tor.html:75
+msgid "Benefits of Tor over I2P"
+msgstr "Benefícios do Tor sobre I2P"
+
+#: i2p2www/pages/site/comparison/tor.html:78
+msgid ""
+"Much bigger user base; much more visibility in the academic and hacker "
+"communities; benefits from\n"
+"formal studies of anonymity, resistance, and performance;\n"
+"has a non-anonymous, visible, university-based leader"
+msgstr ""
+"Base de usuários muito maior; muito mais visibilidade nas comunidades "
+"acadêmicas e no mundo hacker; beneficiada por\n"
+"estudos formais de anonimia, resistência e desempenho;\n"
+"possui lideranças não-anônimas, visíveis, nas universidades"
+
+#: i2p2www/pages/site/comparison/tor.html:84
+msgid "Has already solved some scaling issues I2P has yet to address"
+msgstr "Já solucionou algumas questões de escalonamento que a I2P ainda não"
+
+#: i2p2www/pages/site/comparison/tor.html:85
+msgid "Has significant funding"
+msgstr "Possui financiamento significativo"
+
+#: i2p2www/pages/site/comparison/tor.html:86
+msgid "Has more developers, including several that are funded"
+msgstr "Possui mais desenvolvedores, muitos dos quais recebem financiamento"
+
+#: i2p2www/pages/site/comparison/tor.html:88
+msgid ""
+"More resistant to state-level blocking due to TLS transport layer and "
+"bridges\n"
+"(I2P has proposals for \"full restricted routes\" but these are not yet "
+"implemented)"
+msgstr ""
+"Mais resistente a bloqueios de níveis-de-estado devidos a pontes e camada"
+" de transporte TLS\n"
+"(a I2P tem propostas de \"rotas completamente restritas\", que não foram "
+"ainda implementadas)"
+
+#: i2p2www/pages/site/comparison/tor.html:93
+msgid "Big enough that it has had to adapt to blocking and DOS attempts"
+msgstr ""
+"Grande o suficiente para que ele tenha tido que se adaptar a tentativas "
+"de bloqueio e DOS"
+
+#: i2p2www/pages/site/comparison/tor.html:94
+msgid "Designed and optimized for exit traffic, with a large number of exit nodes"
+msgstr ""
+"Projetada e otimizada para tráfego de saída, com um número enorme de "
+"nodos de saída"
+
+#: i2p2www/pages/site/comparison/tor.html:96
+msgid ""
+"Better documentation, has formal papers and specifications,\n"
+"better website, many more translations"
+msgstr ""
+"Documentação melhor, com artigos e especificações formais, melhor "
+"website, muito mais traduções"
+
+#: i2p2www/pages/site/comparison/tor.html:101
+msgid "More efficient with memory usage"
+msgstr "Maior eficiência no uso de memória"
+
+#: i2p2www/pages/site/comparison/tor.html:102
+msgid "Tor client nodes have very low bandwidth overhead"
+msgstr "Nós-clientes da rede Tor possuem sobrecarga de banda muito pequena"
+
+#: i2p2www/pages/site/comparison/tor.html:104
+msgid ""
+"Centralized control reduces the complexity at each\n"
+"node and can efficiently address Sybil attacks"
+msgstr ""
+"Controle centralizado reduz a complexidade em cada\n"
+"nó e pode eficientemente contrapor-se a ataques Sybil"
+
+#: i2p2www/pages/site/comparison/tor.html:110
+msgid ""
+"A core of high capacity nodes provides higher\n"
+"throughput and lower latency"
+msgstr ""
+"Um núcleo de nós de alta capacidade proporciona taxas de transferência "
+"mais altas e latência mais baixa"
+
+#: i2p2www/pages/site/comparison/tor.html:115
+msgid "C, not Java (ewww)"
+msgstr "C, não Java (ewww)"
+
+#: i2p2www/pages/site/comparison/tor.html:118
+msgid "Benefits of I2P over Tor"
+msgstr "Benefícios do I2P sobre Tor"
+
+#: i2p2www/pages/site/comparison/tor.html:120
+msgid ""
+"Designed and optimized for hidden services, which are much faster than in"
+" Tor"
+msgstr ""
+"Projetada e otimizada para serviços ocultos, que são mais rápidos do que "
+"na rede Tor"
+
+#: i2p2www/pages/site/comparison/tor.html:121
+msgid "Fully distributed and self organizing"
+msgstr "Totalmente distribuído e organização automática"
+
+#: i2p2www/pages/site/comparison/tor.html:123
+msgid ""
+"Peers are selected by continuously profiling and ranking performance,\n"
+"rather than trusting claimed capacity"
+msgstr ""
+"Os pares são selecionados por meio da criação contínua de perfis e "
+"classificação de desempenho, em vez de confiar na capacidade reivindicada"
+
+#: i2p2www/pages/site/comparison/tor.html:129
+msgid ""
+"Floodfill peers (\"directory servers\") are varying and untrusted,\n"
+"rather than hardcoded"
+msgstr ""
+"Os pares de enchimento (\"servidores de diretório\") são variáveis e não "
+"confiáveis, em vez de codificados"
+
+#: i2p2www/pages/site/comparison/tor.html:134
+msgid "Small enough that it hasn't been blocked or DOSed much, or at all"
+msgstr ""
+"Pequeno o suficiente para que ele não tenha sido bloqueado ou DOSed "
+"muito, ou em tudo"
+
+#: i2p2www/pages/site/comparison/tor.html:135
+msgid "Peer-to-peer friendly"
+msgstr "Amigável ponto a ponto"
+
+#: i2p2www/pages/site/comparison/tor.html:136
+msgid "Packet switched instead of circuit switched"
+msgstr "Comutação de pacotes em vez de comutados por circuito"
+
+#: i2p2www/pages/site/comparison/tor.html:139
+msgid ""
+"implicit transparent load balancing of messages \n"
+"across multiple peers, rather than a single path"
+msgstr ""
+"balanceamento de carga de mensagem transparente e implícito \n"
+"ao longo de vários pares, ao invés de um único caminho"
+
+#: i2p2www/pages/site/comparison/tor.html:145
+msgid ""
+"resilience vs. failures by running multiple \n"
+"tunnels in parallel, plus rotating tunnels"
+msgstr ""
+"resiliência a falhas ao executar vários \n"
+"túneis em paralelo, além de rotacionar túneis"
+
+#: i2p2www/pages/site/comparison/tor.html:151
+msgid ""
+"scale each client's connections at O(1) instead \n"
+"of O(N) (Alice has e.g. 2 inbound tunnels that are \n"
+"used by all of the peers Alice is talking with, \n"
+"rather than a circuit for each)"
+msgstr ""
+"escalar conexões de cada cliente a O(1) ao invés \n"
+"de O(N) (Alice tem, por exemplo, 2 túneis de entrada que são \n"
+"usados por todos os pares com os quais Alice está conversando, \n"
+"em vez de um circuito para cada)"
+
+#: i2p2www/pages/site/comparison/tor.html:161
+msgid ""
+"Unidirectional tunnels instead of bidirectional\n"
+"circuits, doubling the number of nodes a peer has to\n"
+"compromise to get the same information."
+msgstr ""
+"Túneis unidirecionais ao invés de circuitos bidirecionais, dobrando o "
+"número de nodos que um par tem de comprometer para obter alguma "
+"informação."
+
+#: i2p2www/pages/site/comparison/tor.html:166
+#, python-format
+msgid "Counter-arguments and further discussion <a href=\"%(netdb)s\">here</a>."
+msgstr "Contra-argumentos e maiores discussões <a href=\"%(netdb)s\">aqui</a>."
+
+#: i2p2www/pages/site/comparison/tor.html:171
+msgid ""
+"Protection against detecting client activity, even\n"
+"when an attacker is participating in the tunnel, as\n"
+"tunnels are used for more than simply passing end \n"
+"to end messages (e.g. netDb, tunnel management, \n"
+"tunnel testing)"
+msgstr ""
+"Proteção contra a detecção de atividade do cliente, mesmo\n"
+"quando o atacante está participando do túnel, já que\n"
+"túneis são usados para mais do que simplesmente passar mensagens \n"
+"de ponta a ponta (por exemplo, netDb, gerência de túnel, \n"
+"teste de túnel)"
+
+#: i2p2www/pages/site/comparison/tor.html:180
+msgid ""
+"Tunnels in I2P are short lived, decreasing the number\n"
+"of samples that an attacker can use to mount an \n"
+"active attack with, unlike circuits in Tor, which are\n"
+"typically long lived."
+msgstr ""
+"Os túneis no I2P são de curta duração, diminuindo o número\n"
+"de amostras que um atacante pode usar para montar um\n"
+"ataque ativo com, ao contrário dos circuitos em Tor, que são\n"
+"tipicamente de vida longa."
+
+#: i2p2www/pages/site/comparison/tor.html:188
+msgid ""
+"I2P APIs are designed specifically for anonymity and\n"
+"security, while SOCKS is designed for functionality."
+msgstr ""
+"As APIs da I2P são especialmente projetadas para anonimato e segurança, "
+"enquanto o SOCKs é projetado para funcionalidade."
+
+#: i2p2www/pages/site/comparison/tor.html:193
+msgid "Essentially all peers participate in routing for others"
+msgstr "Essencialmente, todos os pares participam roteando para todos os demais"
+
+#: i2p2www/pages/site/comparison/tor.html:195
+msgid ""
+"The bandwidth overhead of being a full peer is low, \n"
+"while in Tor, while client nodes don't require much\n"
+"bandwidth, they don't fully participate in the mixnet."
+msgstr ""
+"O overhead de largura de banda por ser um par completo é baixo, \n"
+"enquanto no Tor, ao passo em que os clientes não requerem muita\n"
+"banda, eles não participam inteiramente na mixnet."
+
+#: i2p2www/pages/site/comparison/tor.html:201
+msgid "Integrated automatic update mechanism"
+msgstr "Mecanismo de atualização automática integrado"
+
+#: i2p2www/pages/site/comparison/tor.html:202
+msgid "Both TCP and UDP transports"
+msgstr "Ambos os transportes TCP e UDP"
+
+#: i2p2www/pages/site/comparison/tor.html:203
+msgid "Java, not C (ewww)"
+msgstr "Java, não C (ewww)"
+
+#: i2p2www/pages/site/comparison/tor.html:206
+msgid "Other potential benefits of I2P but not yet implemented"
+msgstr "Outros benefícios do i2P mas ainda não implementados"
+
+#: i2p2www/pages/site/comparison/tor.html:207
+msgid "...and may never be implemented, so don't count on them!"
+msgstr "... e talvez não sejam implementados, por isso, não conte com eles!"
+
+#: i2p2www/pages/site/comparison/tor.html:210
+msgid ""
+"Defense vs. message count analysis by garlic wrapping \n"
+"multiple messages"
+msgstr ""
+"Defesa conta análise de número de mensagens por meio de embrulho garlic \n"
+"de várias mensagens"
+
+#: i2p2www/pages/site/comparison/tor.html:216
+msgid ""
+"Defense vs. long term intersection by adding delays \n"
+"at various hops (where the delays are not discernible\n"
+"by other hops)"
+msgstr ""
+"Defesa conta interseção de longo termo por meio da adição de atrasos \n"
+"em vários pulos (em que os atrasos não são discerníveis\n"
+"em outros pulos)"
+
+#: i2p2www/pages/site/comparison/tor.html:223
+msgid ""
+"Various mixing strategies at the tunnel level (e.g.\n"
+"create a tunnel that will handle 500 messages / minute,\n"
+"where the endpoint will inject dummy messages if there\n"
+"are insufficient messages, etc)"
+msgstr ""
+"Várias estratégias de mistura a nível de túnel (por exemplo,\n"
+"criar um túnel que irá lidar com 500 mensagens / minuto,\n"
+"onde o endpoint injetará mensagens fictícias se não há\n"
+"mensagens suficientes, etc)"
+

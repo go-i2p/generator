@@ -1,0 +1,13 @@
+{% extends "global/layout.html" %}
+{% block title %}I2PCon{% endblock %}
+{% block content %}
+<p>{% trans -%}
+The first conference dedicated to I2P was held in Toronto on August 15-16, 2015.
+See the link below for more information and links to slides and videos.
+{%- endtrans %}</p>
+
+<h2>{{ _('Past years') }}</h2>
+<ul>
+<li><a href="{{ site_url('about/i2pcon/2015') }}">2015</a>
+</ul>
+{% endblock %}

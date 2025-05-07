@@ -1,0 +1,20 @@
+I2P dev meeting, September 23, 2003 @ 20:00 UTC
+===============================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+beefbroth,
+CCD,
+ChZEROHag,
+co,
+dm,
+jrand0m,
+mihi,
+mrflibble,
+Myself248,
+Ryan_Singer,
+shardy,
+thecrypto,

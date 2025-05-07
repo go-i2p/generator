@@ -1,0 +1,12 @@
+I2P dev meeting, DATE @ 21:00 UTC
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ion,
+jrand0m,
+mihi,
+shardy,

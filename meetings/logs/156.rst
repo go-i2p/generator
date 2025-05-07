@@ -1,0 +1,21 @@
+I2P dev meeting, November 15, 2005
+==================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ailouros
+anti,
+bar,
+cervantes,
+Complication,
+frosk,
+jmg,
+jrandom,
+modulus,
+polecat,
+reliver,
+Sonium,
+tethra,

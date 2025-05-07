@@ -1,0 +1,16 @@
+I2P dev meeting, August 1, 2006
+===============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+cervantes,
+Complication,
+frosk,
+jrandom,
+polecat,
+tethra,
+void,

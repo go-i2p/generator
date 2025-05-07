@@ -1,0 +1,16 @@
+I2P dev meeting, September 6, 2005
+==================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+adamta
+ardvark,
+bar,
+cervantes,
+jrandom,
+Pseudonym,
+Ragnarok,
+susi23,

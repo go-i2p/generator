@@ -1,0 +1,191 @@
+<div id="cssmenu">
+<ul>
+  <li><a href="{{ get_url('downloads_list') }}"><div class="menuitem"><span>{{ _('Download') }}</span></div></a></li>
+  <li class="has-sub"><div class="menuitem"><span>{{ _('About') }}</span></div>
+    <ul>
+      <li><a href="{{ site_url('about/intro') }}"><div class="menuitem"><span>{{ _('Introduction to I2P') }}</span></div></a></li>
+      <li class="has-sub"><div class="menuitem"><span>{{ _('Guide to I2P Software') }}</span></div>
+        <ul>
+          <li><a href="{{ site_url('about/software') }}"><div class="menuitem"><span>{{ _('What is Included') }}</span></div></a><li>
+          <li><a href="{{ site_url('about/browser-config') }}"><div class="menuitem"><span>{{ _('How to browse I2P') }}</span></div></a></li>
+          <li><a href="{{ site_url('faq') }}"><div class="menuitem"><span>{{ _('FAQ') }}</span></div></a></li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Applications') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('docs/applications/bittorrent') }}"><div class="menuitem"><span>{{ _('Bittorrent') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/applications/gitlab') }}"><div class="menuitem"><span>{{ _('GitLab') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/applications/git') }}"><div class="menuitem"><span>{{ _('Git') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/applications/git-bundle') }}"><div class="menuitem"><span>{{ _('git+Bittorrent') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/applications/irc') }}"><div class="menuitem"><span>{{ _('IRC') }}</span></div></a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="has-sub"><div class="menuitem"><span>{{ _('Help') }}</span></div>
+        <ul>
+          <li><a href="{{ site_url('about/glossary') }}"><div class="menuitem"><span>{{ _('Glossary') }}</span></div></a></li>
+          <li><a href="{{ site_url('about/performance') }}"><div class="menuitem"><span>{{ _('Performance') }}</span></div></a></li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Comparisons') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('comparison/tor') }}"><div class="menuitem"><span>Tor</span></div></a></li>
+              <li><a href="{{ site_url('comparison/freenet') }}"><div class="menuitem"><span>Freenet</span></div></a></li>
+              {#<li><a href="{{ site_url('comparison/gnunet') }}"><div class="menuitem"><span>GNUnet</span></div></a></li> #}
+              <li><a href="{{ site_url('comparison/other-networks') }}"><div class="menuitem"><span>{{ _('Other anonymous networks') }}</span></div></a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Verify I2P') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('get-involved/develop/release-signing-key') }}"><div class="menuitem"><span>{{ _('Release signing keys') }}</span></div></a></li>
+              <li><a href="{{ site_url('get-involved/develop/signed-keys') }}"><div class="menuitem"><span>{{ _('Signed keys') }}</span></div></a></li>
+              <li><a href="{{ site_url('get-involved/develop/developers-keys') }}"><div class="menuitem"><span>{{ _('Developers keys') }}</span></div></a></li>
+            </ul>
+          </li>
+          <li><a href="{{ site_url('contact') }}"><div class="menuitem"><span>{{ _('Contact us') }}</span></div></a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><div class="menuitem"><span>{{ _('Contributor Guides') }}</span></div>
+        <ul>
+          <li><a href="{{ site_url('get-involved') }}"><div class="menuitem"><span>{{ _('Get involved!') }}</span></div></a><li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Develop Software') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('get-involved/guides/new-developers') }}"><div class="menuitem"><span>{{ _('New developers') }}</span></div></a></li>
+              <li><a href="{{ site_url('get-involved/guides/ides') }}"><div class="menuitem"><span>{{ _('Using an IDE with I2P') }}</span></div></a></li>
+              <li><a href="{{ site_url('get-involved/guides/dev-guidelines') }}"><div class="menuitem"><span>{{ _('Developer guidelines and coding style') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/applications/git') }}"><div class="menuitem"><span>{{ _('Git') }}</span></div></a></li>
+            </ul>
+          </li>
+          <li><a href="{{ site_url('get-involved/guides/new-translators') }}"><div class="menuitem"><span>{{ _('Translate I2P into more Languages') }}</span></div></a></li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Hosting Services') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('docs/reseed') }}"><div class="menuitem"><span>{{ _('Reseed') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/applications/gitlab') }}"><div class="menuitem"><span>{{ _('GitLab') }}</span></div></a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="{{ site_url('contact') }}"><div class="menuitem"><span>{{ _('Contact and Team') }}</span></div></a></li>
+  </ul>
+  <li class="has-sub"><div class="menuitem"><span>{{ _('Community') }}</span></div>
+    <ul>
+      <li><a href="http://{{ i2pconv('i2pforum.i2p') }}/"><div class="menuitem"><span>{{ _('Forums') }}</span></div></a></li>
+      <li><a href="https://reddit.com/r/i2p"><div class="menuitem"><span>Reddit</span></div></a></li>
+      <li class="has-sub"><div class="menuitem"><span>{{ _('Research') }}</span></div>
+        <ul>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Research') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('research') }}"><div class="menuitem"><span>{{ _('Academic research') }}</span></div></a></li>
+              <li><a href="{{ site_url('research/questions') }}"><div class="menuitem"><span>{{ _('Open research questions') }}</span></div></a></li>
+              <li><a href="{{ site_url('research/vrp') }}"><div class="menuitem"><span>{{ _('Vulnerability Response Process') }}</span></div></a></li>
+            </ul>
+            <li><a href="{{ get_url('papers_list') }}"><div class="menuitem"><span>{{ _('Academic papers and peer review') }}</span></div></a></li>
+          </li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Presentations, tutorials and articles') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('about/media') }}"><div class="menuitem"><span>Media</span></div></a></li>
+              <li><a href="{{ site_url('about/i2pcon') }}"><div class="menuitem"><span>I2PCon</span></div></a></li>
+            </ul>
+          </li>
+        <li><a href="{{ site_url('impressum') }}"><div class="menuitem"><span>{{ _('Impressum') }}</span></div></a></li>
+        <li><a href="https://i2p-metrics.np-tokumei.net/"><div class="menuitem"><span>{{ _('I2P Metrics') }}</span></div></a></li>
+        </ul>
+        </li>
+      </li>
+      <li class="has-sub"><div class="menuitem"><span>{{ _('Develop') }}</span></div>
+        <ul>
+          <li><a href="https://i2pgit.org"><div class="menuitem"><span>{{ _('Gitlab') }}</span></div></a></li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Docs') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('docs') }}"><div class="menuitem"><span>{{ _('Documentation index') }}</span></div></a></li>
+              <li class="has-sub"><div class="menuitem"><span>{{ _('How does it work?') }}</span></div>
+                <ul>
+                  <li><a href="{{ site_url('docs/how/intro') }}"><div class="menuitem"><span>{{ _('Gentle intro') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/how/tech-intro') }}"><div class="menuitem"><span>{{ _('Tech intro') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/how/threat-model') }}"><div class="menuitem"><span>{{ _('Threat model') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/how/garlic-routing') }}"><div class="menuitem"><span>{{ _('Garlic routing') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/how/network-database') }}"><div class="menuitem"><span>{{ _('Network database') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/how/tunnel-routing') }}"><div class="menuitem"><span>{{ _('Tunnel routing') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/how/peer-selection') }}"><div class="menuitem"><span>{{ _('Peer selection') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/how/cryptography') }}"><div class="menuitem"><span>{{ _('Cryptography') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/how/elgamal-aes') }}"><div class="menuitem"><span>{{ _('ElGamal/AES+SessionTags') }}</span></div></a></li>
+                </ul>
+              </li>
+              <li><a href="{{ url_for('spec_index') }}"><div class="menuitem"><span>{{ _('Specifications') }}</span></div></a></li>
+              <li><a href="{{ url_for('proposal_index') }}"><div class="menuitem"><span>{{ _('Proposals') }}</span></div></a></li>
+              <li class="has-sub"><div class="menuitem"><span>{{ _('API') }}</span></div>
+                <ul>
+                  <li><a href="{{ site_url('docs/api/i2ptunnel') }}"><div class="menuitem"><span>I2PTunnel</span></div></a></li>
+                  <li><a href="{{ site_url('docs/api/socks') }}"><div class="menuitem"><span>SOCKS</span></div></a></li>
+                  <li><a href="{{ site_url('docs/api/samv3') }}"><div class="menuitem"><span>SAM v3</span></div></a></li>
+                  <li><a href="{{ site_url('docs/api/bob') }}"><div class="menuitem"><span>BOB</span></div></a></li>
+                  <li><a href="{{ site_url('docs/api/streaming') }}"><div class="menuitem"><span>{{ _('Streaming library') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/api/datagrams') }}"><div class="menuitem"><span>{{ _('Datagrams') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/api/i2pcontrol') }}"><div class="menuitem"><span>I2PControl</span></div></a></li>
+                </ul>
+              </li>
+              <li class="has-sub"><div class="menuitem"><span>{{ _('Protocols') }}</span></div>
+                <ul>
+                  <li><a href="{{ site_url('docs/protocol') }}"><div class="menuitem"><span>{{ _('Protocol stack') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/protocol/i2cp') }}"><div class="menuitem"><span>I2CP</span></div></a></li>
+                  <li><a href="{{ site_url('docs/protocol/i2np') }}"><div class="menuitem"><span>I2NP</span></div></a></li>
+                </ul>
+              </li>
+              <li class="has-sub"><div class="menuitem"><span>{{ _('Transports') }}</span></div>
+                <ul>
+                  <li><a href="{{ site_url('docs/transport') }}"><div class="menuitem"><span>{{ _('Transport layer overview') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/transport/ntcp') }}"><div class="menuitem"><span>NTCP</span></div></a></li>
+                  <li><a href="/spec/ntcp2"><div class="menuitem"><span>NTCP2</span></div></a></li>
+                  <li><a href="{{ site_url('docs/transport/ssu') }}"><div class="menuitem"><span>SSU</span></div></a></li>
+                  <li><a href="/spec/proposals/159-ssu2"><div class="menuitem"><span>SSU2(Proposal 159)</span></div></a></li>
+                </ul>
+              </li>
+              <li class="has-sub"><div class="menuitem"><span>{{ _('Tunnels') }}</span></div>
+                <ul>
+                  <li><a href="{{ site_url('docs/tunnels/implementation') }}"><div class="menuitem"><span>{{ _('Tunnel implementation') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/tunnels/unidirectional') }}"><div class="menuitem"><span>{{ _('Unidirectional tunnels') }}</span></div></a></li>
+                  <li><a href="{{ site_url('docs/tunnels/old-implementation') }}"><div class="menuitem"><span>{{ _('Old implementation') }}</span></div></a></li>
+                </ul>
+              </li>
+              <li><a href="{{ site_url('docs/naming') }}"><div class="menuitem"><span>{{ _('Naming and Address Book') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/plugins') }}"><div class="menuitem"><span>{{ _('Plugins') }}</span></div></a></li>
+              <li><a href="{{ site_url('about/restrictive-countries') }}"><div class="menuitem"><span>{{ _('Strict Countries') }}</span></div></a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('API') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('docs/api/i2ptunnel') }}"><div class="menuitem"><span>I2PTunnel</span></div></a></li>
+              <li><a href="{{ site_url('docs/api/socks') }}"><div class="menuitem"><span>SOCKS</span></div></a></li>
+              <li><a href="{{ site_url('docs/api/samv3') }}"><div class="menuitem"><span>SAM v3</span></div></a></li>
+              <li><a href="{{ site_url('docs/api/bob') }}"><div class="menuitem"><span>BOB</span></div></a></li>
+              <li><a href="{{ site_url('docs/api/streaming') }}"><div class="menuitem"><span>{{ _('Streaming library') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/api/datagrams') }}"><div class="menuitem"><span>{{ _('Datagrams') }}</span></div></a></li>
+              <li><a href="{{ site_url('docs/api/i2pcontrol') }}"><div class="menuitem"><span>I2PControl</span></div></a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('License') }}</span></div>
+            <ul>
+              <li><a href="{{ site_url('get-involved/develop/applications') }}"><div class="menuitem"><span>{{ _('Applications') }}</span></div></a></li>
+              <li><a href="{{ site_url('get-involved/develop/licenses') }}"><div class="menuitem"><span>{{ _('Licenses') }}</span></div></a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><div class="menuitem"><span>{{ _('Meetings, Roadmap') }}</span></div>
+            <ul>
+              <li><a href="{{ get_url('meetings_index') }}"><div class="menuitem"><span>{{ _('Meeting Logs') }}</span></div></a></li>
+              <li><a href="{{ site_url('get-involved/roadmap') }}"><div class="menuitem"><span>{{ _('Project Roadmap') }}</span></div></a></li>
+              <li><a href="{{ site_url('get-involved/todo') }}"><div class="menuitem"><span>{{ _('Task list') }}</span></div></a></li>
+            </ul>
+          </li>
+          <li><a href="http://{{ i2pconv('trac.i2p2.i2p') }}/"><div class="menuitem"><span>{{ _('Bug tracker') }}</span></div></a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><div class="menuitem"><span>{{ _('People') }}</span></div>
+        <ul>
+          <li><a href="{{ site_url('contact') }}"><div class="menuitem"><span>{{ _('Contact us') }}</span></div></a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="{{ get_url('blog_index') }}"><div class="menuitem"><span>{{ _('Blog') }}</span></div></a></li>
+  <li class="has-sub right"><div class="menuitem"><span><img src="{{ get_flag() }}" /> {{ _('Language') }}</span></div>
+    {% include "global/lang.html" %}
+  </li>
+</ul>
+</div>

@@ -1,0 +1,14 @@
+I2P dev meeting, September 12, 2006
+===================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+cervantes,
+jrandom,
+kostya213,
+modulus,
+tethra,
+vulpine,

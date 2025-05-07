@@ -1,0 +1,16 @@
+I2P dev meeting, August 30, 2005
+================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+bla,
+gloin,
+jrandom,
+laberhorst,
+nickless_head,
+redzara,
+ZULU,

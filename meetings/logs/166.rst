@@ -1,0 +1,18 @@
+I2P dev meeting, January 31, 2006
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+bar,
+cervantes,
+Complication,
+frosk,
+gloin,
+jrandom,
+Pseudonym,
+stealth,
+Sugadude,
+tethra,

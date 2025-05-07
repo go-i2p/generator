@@ -1,0 +1,17 @@
+I2P dev meeting, January 11, 2005
+=================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+cervantes,
+deer,
+dm,
+duck,
+fdr,
+jrandom,
+lucky,
+protok0l,
+toad\_,

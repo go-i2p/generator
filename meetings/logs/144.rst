@@ -1,0 +1,16 @@
+I2P dev meeting, August 23, 2005
+================================
+
+Quick recap
+-----------
+
+* **Present:**
+
+arcturus,
+ardvark,
+cervantes,
+gott,
+jrandom,
+lucky,
+modulus,
+susi23\_,

@@ -1,0 +1,62 @@
+{% extends "global/layout.html" %}
+{% block title %}{{ _('I2P Reseed Server Policy Requirements and Guidelines') }}{% endblock %}
+{% block lastupdated %}2023-01{% endblock %}
+{% block content %}
+
+<h2>{% trans %}Reseed Policy Information{% endtrans %}</h2>
+
+<h3>Requirements</h3>
+
+<p>
+Requirements for running a public reseed server:
+</p>
+<ul>
+<li>Well integrated running I2P router @ 24/7</li>
+<li>Server with static IPv4 (2 cpu/ 2GB ram is fine)</li>
+<li>Unix to run the golang solution</li>
+<li>Own domain, sub-domain or an anonymous third-level domain</li>
+<li>A self-signed SSL certificate, or an SSL certificate from <a href="https://letsencrypt.org" target="_blank">Let's Encrypt</a></li>
+<li>Enough bandwidth and traffic volume - Around 15 GB/month as of December 2016</li>
+<li>Up-to-date web server (Apache/nginx), HTTPS ONLY with TLS 1.2 and good ciphers</li>
+</ul>
+Optional:
+<ul>
+<li>fail2ban to protect you from botnets</li>
+<li>GnuPG/PGP for signed/encrypted emails</li>
+<li>IPv6</li>
+</ul>
+
+<h3>{% trans %}Information Required{% endtrans %}</h3>
+
+<p>{% trans -%}
+When your setup is complete and ready for testing, we will need the HTTPS URL,
+the SSL public key certificate (only if selfsigned), and the su3 public key certificate.
+After testing is complete, these will be added to the hardcoded entries in the Java and C++ routers in the next release,
+and you will start seeing traffic.
+We also will need your email address so we may continue to contact you about reseed administration issues.
+The email will not be made public but will be known to the other reseed operators.
+You should expect that your nick or name and its association with that URL or IP will become public.
+{%- endtrans %}</p>
+
+<h3>{% trans %}Privacy Policy{% endtrans %}</h3>
+
+<p>{% trans -%}
+A reseed operator is a trusted role in the network.
+While we do not yet have a formal privacy policy, you must ensure the privacy of our users
+by not publicizing logs or IPs found in those logs, except as necessary to discuss administration issues with the I2P reseed team.
+{%- endtrans %}</p>
+
+<h3>{% trans %}Financial Support{% endtrans %}</h3>
+
+<p>{% trans -%}
+Modest financial support may be available to those running reseed servers.
+This support would be in partial reimbursement for your server costs.
+Support will not be paid in advance and will probably not cover all your expenses.
+Support is only available to those who have been running reseed servers in good standing for several months, and is based on actual need.
+{%- endtrans %}</p>
+
+<p>{% trans -%}
+If you would like to discuss support, please contact echelon and CC: zzz
+{%- endtrans %}</p>
+
+{% endblock %}

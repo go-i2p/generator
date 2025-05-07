@@ -1,0 +1,18 @@
+I2P dev meeting, August 2, 2005
+===============================
+
+Quick recap
+-----------
+
+* **Present:**
+
+ant,
+bar,
+cervantes,
+duck,
+jrandom2p,
+lucky,
+mihi,
+protokol,
+smeghead,
+thetower,
