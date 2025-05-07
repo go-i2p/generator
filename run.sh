@@ -3,6 +3,7 @@
 export main=$(pwd)/main.py
 export cmd=$(pwd)/cmd.sh
 export dir2md=$(pwd)/dir2md.sh
+export md=$(pwd)/md.sh
 
 
 export LANGUAGES="ar az ca cs da de el es es_AR et_EE fa fi fr gl he hu id it ja ko mg nb nl pl pt pt_BR ro ru sk sl sq sv tr uk zh zh_TW"
@@ -26,4 +27,4 @@ for lang in $LANGUAGES; do
 done
 
 find processed -type d -exec "$dir2md" {} {}/README.md \;
-find processed -type d -exec bash -c "markdown {}/README.md > {}/index.html" \;
+find processed -type d -exec "$md" {}/README.md {}/index.html \;
