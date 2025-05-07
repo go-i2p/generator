@@ -1,5 +1,5 @@
 # Directory Listing: /home/runner/work/www/www/processed/ru/pages/site
-Generated on: Wed May  7 05:12:12 UTC 2025
+Generated on: Wed May  7 05:18:05 UTC 2025
 
 - [README.md](README.md)
 - **[about/](about/)**
