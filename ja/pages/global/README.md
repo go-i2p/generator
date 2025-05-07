@@ -1,5 +1,5 @@
 # Directory Listing: /home/runner/work/www/www/processed/ja/pages/global
-Generated on: Wed May  7 05:19:40 UTC 2025
+Generated on: Wed May  7 05:21:13 UTC 2025
 
 - [README.md](README.md)
 - [error_404.html.md](error_404.html.md)

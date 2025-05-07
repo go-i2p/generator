@@ -1,5 +1,5 @@
 # Directory Listing: /home/runner/work/www/www/processed/zh_TW/pages/spec
-Generated on: Wed May  7 05:19:36 UTC 2025
+Generated on: Wed May  7 05:21:08 UTC 2025
 
 - [README.md](README.md)
 - [index.html.md](index.html.md)

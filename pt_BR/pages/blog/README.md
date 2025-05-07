@@ -1,5 +1,5 @@
 # Directory Listing: /home/runner/work/www/www/processed/pt_BR/pages/blog
-Generated on: Wed May  7 05:19:47 UTC 2025
+Generated on: Wed May  7 05:21:19 UTC 2025
 
 - [README.md](README.md)
 - [category.html.md](category.html.md)
