@@ -26,3 +26,4 @@ for lang in $LANGUAGES; do
 done
 
 find processed -type d -exec "$dir2md" {} {}/README.md \;
+find processed -type d -exec "markdown" {}/README.md -o {}/index.html \;
