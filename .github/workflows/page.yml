@@ -26,8 +26,7 @@ jobs:
 
       - name: Run build script 🔧
         run: |
-          chmod +x ./cmd.sh
-          chmod +x ./run.sh
+          chmod +x ./*.sh
           ./run.sh
         
       - name: Deploy to GitHub Pages 🚀
