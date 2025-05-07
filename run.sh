@@ -23,3 +23,5 @@ for lang in $LANGUAGES; do
     echo "Processing $lang in $dir for $ext"
     find "$dir" -name "*.$ext" -exec "$cmd" {} \;
 done
+
+find processed -type d -exec "$dir2md" {} {}/README.md \;

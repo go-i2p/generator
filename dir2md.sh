@@ -4,7 +4,7 @@
 usage() {
     cat << EOF
 Usage: $(basename "$0") [directory] [output.md]
-Generate a markdown-formatted directory listing.
+Generate a markdown-formatted directory listing with file links.
 
 Arguments:
     directory   : Directory to scan (default: current directory)
@@ -26,9 +26,14 @@ fi
 # Create or truncate the output file
 : > "$output_file"
 
+# Get absolute paths
+target_dir=$(cd "$target_dir" && pwd)
+output_dir=$(cd "$(dirname "$output_file")" && pwd)
+output_name=$(basename "$output_file")
+
 # Write header to the markdown file
 {
-    echo "# Directory Listing: $(cd "$target_dir" && pwd)"
+    echo "# Directory Listing: $target_dir"
     echo "Generated on: $(date)"
     echo
 } >> "$output_file"
@@ -38,9 +43,37 @@ get_depth() {
     printf "%s" "$1" | tr -c -d '/' | wc -c
 }
 
+# Function to create a relative path between two absolute paths
+make_relative_path() {
+    # $1 is the path to the markdown file directory
+    # $2 is the path to the target file
+    
+    # Start with both paths
+    common_path="$1"
+    target="$2"
+    
+    # Initialize relative path
+    rel_path=""
+    
+    # Find the common prefix
+    while [ "${target#$common_path/}" = "$target" ] && [ -n "$common_path" ]; do
+        common_path="${common_path%/*}"
+        rel_path="../$rel_path"
+    done
+    
+    # If there's no common path left, we've gone up as far as we need to
+    if [ -z "$common_path" ]; then
+        rel_path="/$target"
+    else
+        # Remove the common prefix and prepend the relative path
+        rel_path="${rel_path}${target#$common_path/}"
+    fi
+    
+    printf "%s" "$rel_path"
+}
+
 # Main function to generate the listing
 generate_listing() {
-    # Use find to get all files and directories, sort them
     find "$target_dir" -print | sort | while read -r item; do
         # Skip the target directory itself
         [ "$item" = "$target_dir" ] && continue
@@ -60,13 +93,16 @@ generate_listing() {
         # Get the basename of the item
         base_name=$(basename "$item")
         
+        # Create relative link path from output file to target
+        link_path=$(make_relative_path "$output_dir" "$item")
+        
         # Generate the markdown line
         if [ -d "$item" ]; then
             # Directory: add trailing slash and make it bold
-            echo "${indent}- **${base_name}/**" >> "$output_file"
+            echo "${indent}- **[${base_name}/](${link_path}/)**" >> "$output_file"
         else
-            # Regular file
-            echo "${indent}- ${base_name}" >> "$output_file"
+            # Regular file: create a link
+            echo "${indent}- [${base_name}](${link_path})" >> "$output_file"
         fi
     done
 }
