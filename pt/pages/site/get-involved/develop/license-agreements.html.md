@@ -1,0 +1,1019 @@
+ License
+Agreements 
+
+For more information see [the licenses
+page]().
+
+Following is a monotonerc file defining the current trust list.
+Developers must use this file in \~/.monotone/monotonerc or
+\_MTN/montonerc in their i2p.i2p workspace. 
+
+Agreements:
+
+
+ Complication:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.6 (GNU/Linux)
+
+ iD8DBQFHyXwu+h38a3n8zjMRAjeSAJ9MFx/ENbUu8+3/U7KTj+FGL/NkHQCdE38G
+ IWV1Gaqcis9sFEW7Nh0hY+c=
+ =WPeP
+ -----END PGP SIGNATURE-----
+
+
+ zzz:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I affirm that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.6 (GNU/Linux)
+
+ iD8DBQFHyaYXQVV2uqduC+0RAhn4AJ40JO/ep1JhmghjPU/IeISIa2fY8ACgiuV0
+ vOCHNLZ8kiXKc8cTzYHGnU0=
+ =ZzDd
+ -----END PGP SIGNATURE-----
+
+ welterde:
+ Received by zzz 2008-02-16, need to put clearsigned version here.
+
+
+ Oldaris:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ Oldaris, 2008.07.15
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.6 (GNU/Linux)
+
+ iD8DBQFIfQjqzZzOariGyHgRAgR3AKCBFidvx7u1xp1UcNPZSX4VcHMQmwCg0zos
+ IfrFyqSeeuhGoGVoq8godnY=
+ =GSEI
+ -----END PGP SIGNATURE-----
+
+
+ Sponge:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code they commit under the terms I am committing it
+
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iJwEAQECAAYFAkjc2NsACgkQEGXqrGArRL24pQQAheyOBJiLU4wtbXFL5kVny3PZ
+ W8syAlzBC4sbOm3PkG9YLWh38Lnl+JPvVklRHJbpjRLEfwx6VwEiJRfZB6u+X7x/
+ qRwzjH6HYjz+tX3OAcj0MYH7yr09DLaJ26171X08BXoNpYuu4WWkXx8QnfgvZKVF
+ TeTxhTBL/iWBPKCF2Tk=
+ =+5bk
+ -----END PGP SIGNATURE-----
+
+
+ Dream:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iEYEARECAAYFAkmDVuwACgkQ9BQnlhdx/DlVugCePaRdhpg3qiOyQ71HeiGxT528
+ RmsAoLyxOkGxHn9FO+BGMabzeLAq2vV3
+ =Cqfg
+ -----END PGP SIGNATURE-----
+
+ MOSFET:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to any code I contribute to the I2P and Syndie projects,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v2.0.9 (GNU/Linux)
+
+ iEYEARECAAYFAkmFAWcACgkQZ6SDODlcTO04JgCdGy4duWKRaTWkEdq8GW1ukOkU
+ +YAAn1Ch68XJZqLfXqJU3igcRjWbapD1
+ =64sn
+ -----END PGP SIGNATURE-----
+
+ mkvore:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v2.0.9 (GNU/Linux)
+
+ iEYEARECAAYFAknVxdQACgkQUbTVRUoTVGhKUQCfWs3bw+fo0wqbKcURotncsfsA
+ uJgAnjnImkb5iEDp5vCccQO4PDGYp2+u
+ =0iW6
+ -----END PGP SIGNATURE-----
+
+ Mathiasdm:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iEYEARECAAYFAknYaiwACgkQSgosdkktX9aE1gCgsQhfzyHhSLWrRsDfCz+HaITD
+ ApkAn2RjN+wpldf52Ur2nTVSvpLiHcik
+ =Znrk
+ -----END PGP SIGNATURE-----
+
+ dr|z3d:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I, dr|z3d, do solemnly agree that, in respect of the Invisible Internet Project (I2P):
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (MingW32)
+
+ iEYEARECAAYFAkpN+Q4ACgkQ00a8KJajPMJdjQCfWBovGyOKbZkvL47+FNX5s+14
+ f3QAnAkcOZYQ6rbPG8N8orH7+BMGvfPf
+ =UxMM
+ -----END PGP SIGNATURE-----
+
+ cervantes:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v2.0.11 (GNU/Linux)
+
+ iEYEARECAAYFAkpa5VUACgkQxQxxfQtaKXwKcwCgm8yLYdv+VtjS+1P89U4zQxL4
+ IowAoIghIIWdMs3oMJpGAXfXTqpjRwXJ
+ =lNJP
+ -----END PGP SIGNATURE-----
+
+ blub (BlubMail@mail.i2p):
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ 1. Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ 2. If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ 3. I have the right to release the code I commit under the terms I am committing it
+
+ One warning about 3:
+ German law applies for me and in german law the concept of "public domain" doesn't exist. Its also not possible to waive all rights to the extent the "public domain" concept (as understood in the US) requires (for the ones speaking german: see for example http://de.wikipedia.org/wiki/Public_domain and http://dejure.org/gesetze/UrhG/29.html). IANAL, but I would guess that this is relevant when I commit code, even if I2P isn't a german project.
+
+ I don't really care about legal issues but since the whole point of me signing this seems to be avoiding legal issues and/or uncertainty which code has which license and similiar issues, I thought I should say this. If you don't care, ignore it. :)
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iEYEARECAAYFAkqjRpgACgkQD9YhRSUxPSd74wCdEIHUauSInrfmhXlcx3t5pwrh
+ 9RQAoNy6BW1qSSGhu+Jd2EQ8fQOoO13q
+ =LG0S
+ -----END PGP SIGNATURE-----
+
+ walking:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I agree that, in respect of the Invisible Internet Project (I2P):
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.10 (MingW32)
+
+ iQEcBAEBAgAGBQJK3xwEAAoJELST8RRG8p88DQsH/2cMRMtDiaYKNF+fQvdSKuQI
+ igqRJnnIr/g5s8alfikRhm6MqR/q/vsWVfQlKs+KwL+15OKPjJJtxahp/CsWu5ZX
+ edHZv4nKGuSB7FvUoy0Lz6LRlu0HgZl7nli6YNVYbfbAQ1QbPY3wbvRxkLyHy1Zm
+ kB1XyfzOvA9gpu6r3NLUR8a5mhDUbOtNR8IxoNC/Z1ogsf1c5kzbz0ncHPiV1wMx
+ WZYIJ6vaa0BzJcEi2BDQWsPasEoMlGiK1+WXrjTq4lYcJYu+xrNFh+ofbRYqYhaf
+ 3sGSCgK6abMlQeoO1aO5uo6CRI/Yvrfp5G5y7S/yDOq03glK3RnPAYlmc3s6VLY=
+ =i/D9
+ -----END PGP SIGNATURE-----
+
+ neutron:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Hi zzz,
+
+ I agree to the following :
+
+ - - Unless marked otherwise, all code I commit is implicitly licensed
+ under the component's primary license
+ - - If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+ - - I have the right to release the code they commit under the terms I
+ am committing it
+
+ Neutron
+ - --
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v2.0.11 (GNU/Linux)
+ Comment: Using GnuPG with Mozilla - http://enigmail.mozdev.org
+
+ iEYEARECAAYFAkr3D7MACgkQDkulOvK9/Uww+ACeJ/ILV87A7AtRqJI78MutKlxr
+ IpYAn0MXlHOB9aA7aR07Kj95pvF8A6wv
+ =AUjh
+ -----END PGP SIGNATURE-----
+
+ HungryHobo:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it.
+
+ HungryHobo, 11-3-2009
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iEYEARECAAYFAkrxDEMACgkQHix7YXbc3BL+GACdGH9r4WWqnZS4ZHdvhq2kEgEH
+ FQYAn3gMHNDEBh6YD8KBK4UT/v89PRmy
+ =EXov
+ -----END PGP SIGNATURE-----
+
+ russiansponsor:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iEYEARECAAYFAksZr28ACgkQg9RXHZerbBDNqACfa1EHKmqFbX0F3MOaAqln9NMX
+ JcYAn2dmuA6/jdJW7VikLQbNrKasqG6a
+ =WsTC
+ -----END PGP SIGNATURE-----
+
+ echelon:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iEYEARECAAYFAksaywwACgkQXE9k4qzN3VNuIwCcDR2NL7aVAs+DftvFkoqy9Bnx
+ 7zUAn3PYwfChW0MYdX2EsxV/DCHgk7y0
+ =HEKB
+ -----END PGP SIGNATURE-----
+
+ echelon update 30.01.2014:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Due to a security leak on my personal laptop I do need to change my I2P monotone key.
+ The old one was the key echelon@mail.i2p with the hash "56c0064a8638fe180ed2f2726d6e2e404c788d3d":
+ [pubkey echelon@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/oVMwyzMaSsH2WFgl209ZZn1TMGYo6SDBn3aI7Ohw5iIujBWX6D+p74iTkrlL1JOjmI2+nvStbCFbKcm4VxFQFrJ3DydrRGCmmRNhm8tKewei36sdhXzbAzxDTqBZOpmNL/TYQtpRgozKHmmix8yDgncva0TWSOjUmHRArXfAiQIDAQAB
+ [end]
+
+ The new key will be the key echelon2@mail.i2p with the hash:
+ 6c728b0ffed3c2bf7fb0f3c583b30f966d9bacd5
+
+ [pubkey echelon2@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC8JaZQ7KxawKeM83jxq4GtoPU3sjZnf+X9SKS5mhoBcmO7KdqWBTwTMs/p9xqKBiMWyr9TsUFq0XkUTW4bv2ac8u90CF7rbhhgUDDOF2HhaZrAOhVySnXBaIdmKMY607XvCcarNPTCbd1RsD9AmkYUr4l/rgRdji16bWPaxVjFxQIDAQAB
+ [end]
+
+ Also I agree that, in respect of the Invisible Internet Project (I2P):
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.12 (GNU/Linux)
+
+ iEYEARECAAYFAlLqWy8ACgkQmWhuE0qbFyOzpgCfem16aqdSI1L7LWuD+1byqV0k
+ XQoAnjxdz2D2XWfD1YH7nU6c+v+QcEHP
+ =yB+/
+ -----END PGP SIGNATURE-----
+
+
+ 4get:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed
+ under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit under the terms I am
+ committing it
+
+ -----BEGIN PGP SIGNATURE-----
+
+ iEYEARECAAYFAkseTgMACgkQSH2S/jaH2VEYeACgsPSxEXAxWfyQ3/qNpJhbBTlh
+ Q/QAn3tS6UisuXPCFDh9N4BxcscjSD+5
+ =6DAb
+ -----END PGP SIGNATURE-----
+
+ duck:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed
+ under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit under the terms I am
+ committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iEYEARECAAYFAkulRM8ACgkQHV6vOQfY4WwZswCfTjd7ktLjgqXPL7gvt6z2dxTQ
+ aFAAoJn1aPHVbMw/9FmkTmPSruVFs8V1
+ =bgCE
+ -----END PGP SIGNATURE-----
+
+ privateer:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.9 (GNU/Linux)
+
+ iEYEARECAAYFAkwKdKoACgkQTo2HeGooF8zClwCfVh8uaCHNP4MQwrB1egFKO40j
+ aqEAn3zAoSf0hCbTU/A489RKeQ6DA6GM
+ =mA0j
+ -----END PGP SIGNATURE-----
+
+ m1xxy:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I, mixxy/m1xxy, hereby state that:
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it.
+ * The following is my monotone signing key:
+
+ c9b970f5e8917eada663d4c6b22096617021c95c m1xxy@mail.i2p
+
+ [pubkey m1xxy@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/aaFUq37RQdJpMC8aacqYLdd88wNVjwI+4HY5d7a61HvYIAecg1KJlq/CDFFrygmCcusnFaBmmBQFLO+gJXPKi9PMo1vaENiqCTVfY4EUpMMYzpuqKMKjyfuT6eoOHCZEKfZosUowyJt61FsTzGu+B9y27d0jxXwXT/fml100EwIDAQAB
+ [end]
+
+ mixxy
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.10 (GNU/Linux)
+
+ iQIcBAEBAgAGBQJM1gjUAAoJECDrk8/2C++w+WwP/1GLBHpTGYiDO/zfqECgVRu2
+ S+qxTdEWcJyfz1MY8tJ9vMIhlr66jxveI1KZ4sNUln91yPR2KDgMrBa31wL8IHAz
+ T4uj7paMt8zLtptMbn2nGqdl/X3fmGloDQvW/VB0MWj3YpBgxXiMfEf3Mv9BcnV4
+ B6IUvnXAWVe86Dlon1KLoQjAB3hjiGZV0vUV8sjEOYxX/qztLAfP1FPHCRdKlNYY
+ hb2zNdRTHlCF+CKdZ+TX4HB7qlsjYUbhRJhh2pN2Rwz/2w/CddwXQ4jaKjCkn5T9
+ D5Ekz4/b68doGq1hhjTf/GZ1FqVt+gkYr8MYPGZP5oJ6O4X5yPc3QhRy5cMlERSj
+ S5+lXB/nM09w5bScHtdfHauxUI/vWOdF78BzCJHhOBBHZ/jrsV2iX6QDaf+X/FbT
+ 64SWXTa4jzQeE7MafF9Bkex1rWGJiom5Ew4NG73e1GyGtkwvRV6j5H3AKvpgRJzG
+ G7W3/7MSZjNP7aIs2+BqYe9YveV0GCzC0l0lhIHvKNzRv6Avvvx7krORMQZqSt1k
+ lVPIAUyoW+ScB+E26dVpRFne/0q9yUcQOeKyqehGCEFtgqQCqLsdTHynxayp58bJ
+ lccrgLY+pzPpNg5w/5kJFm70ih9MOHRdRik9TiGvj56tzLUEPrD7WeMzl4mkeg0Y
+ 2WPghzlpoV5C1SJkv+dR
+ =YLVN
+ -----END PGP SIGNATURE-----
+
+ hiddenz:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I, hiddenz/anon8373/slow, hereby state that:
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it.
+ * The following is my monotone signing key:
+
+ [pubkey hiddenz@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnpEeIignM2UUsJT9+hSMcVOUuf0PZTxi9G3zRhDjal8Qdy/NUZQELAc6/gBhnZcSP4BHp/0BTTxXthlTjko8nkwx+EgzQO425Vgb1v/7RneCqEDjMP6QyZUOn1Hi2UBw+jvnbjFk1wDqt9BPdAKITfp3l7bR1xGr4gs1M4MSrcwIDAQAB
+ [end]
+
+ hiddenz
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.11 (GNU/Linux)
+
+ iQEcBAEBAgAGBQJM3u7uAAoJEFp3lNknxN+16HoIAMNYVELPBHOM4iqO1lWeFqmK
+ mSw/+eME05KvboZUq9SsJjInUkxlbfDWHf/DuUlCnTPePuQY+wTQPOa18ncldG0y
+ bgO71WnCSyIydrw8dIUtMBfvVzcSP4c5h0ty10Dw+YxdKL2TLTIw4JuqYCPhE4cm
+ 1IqBfHT5or7A2ahCXLkUt2YX9NW9SAl8xUs+/g5rzc42EAgh656JK83G7kA38UID
+ nn6ZA+A/3hrTe1+lJ0yHa6sCnJGJ6+tdJlLzjeU6K34cRPCcn2sPO9LUlM6VHVga
+ AkTEFPvxhJC9yJ4cgIJ5AlrcF8B4Ufb0gsfsEfebAl1puA0C/MRxywTSjZTTB3k=
+ =UDcv
+
+
+ hottuna:
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ hottuna:
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit
+ is implicitly licensed under the component's primary license
+
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+
+ * I have the right to release the code I commit
+ under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v2.0.16 (MingW32)
+
+ iQGcBAEBAgAGBQJNKd3GAAoJEBVx72WXYlXhZjEL/3miyEMtggiJF73UJ26qLyAp
+ 9vFqoztcCHZTdDS3jpXaDY3v2WnfT6bB3eQjrFYkwDO8UpVqjdCnPUhs/sqHg0eX
+ eqesy6IqDhluxJTO3vlvgBJVh449/g1P15hOQ1aR3vv12okmv85yOD7qbprkAZ9P
+ J2uByT2L1EaLUuYVABVkmoZyBhvmSFZkfvXmToYlywo413r36mW4M+Y7yFkBuw0x
+ aEvZ43zVVDaMsJQwTPdcUb4RmfSPk8d15FOr9WbWzSfKhUZ1HUtCWjPUuYWPzIrg
+ APnJswb07ekm8G9bPeKctOg8lJnJTbM0HzA1KGaCzvpJ+asz6HY8+2mq5RzvQ5XX
+ +6x+heNjNNG6f55cdwTw+ivWcsZiKDliAMUWlSkHMoWLjdzYOzrCM0vNf+BQMYeU
+ +Qg/bOU4Pt11Hfn5/PwY7zdK3KTp/bqtWE6kBdlFXtnPdZKaYtUTmwdCgB/2EC2T
+ pJOW/MBcMyHC5MxdistNFpXDv4O8dt7SNe83ADB2bA==
+ =aXNE
+ -----END PGP SIGNATURE-----
+
+ hamada:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Hamada affirm that:
+
+ * Unless marked otherwise, all code I commit is implicitly
+ licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed
+ under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I
+ am committing it
+
+ Hamada
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.11 (GNU/Linux)
+
+ iQEcBAEBAgAGBQJNUs9+AAoJEOEGJ9ydVi3DddMH/0Bl4Mh3oSWFfx8peOj2JG2z
+ bXHrK7kDHSK+aJrcFORQ4YPg2INjCH5GDDxaALhHKnVpTqZHy2F+RWII1SYVnU6l
+ SQKBKOKw4bHQZSS0ibdsRkUbP1cyoxR9bh0SXfDFjwLu3rzsU4FFc6vmRAIdwiOo
+ xQK3RpiPpzegsZPOFr4+vHIJUGcgGce86EIjC5VSoQHb3gHXsnsYGYBIszEj1MZ4
+ OCzbjV7Gl44sZ6R8Q2AU1Dita7ANJv6bkbk8W8Rurxqi2lUDHiWkW2XaoZ18mvnj
+ dZ65tC2kHgJHVU0oIn5rGMA7uuQizFL0d6pzQfJgw1hMA29sGQmxovy+Bp85Pqk=
+ =HeGr
+ -----END PGP SIGNATURE-----
+
+ magma:
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I affirm that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v2.0.14 (GNU/Linux)
+
+ iQIcBAEBAgAGBQJNg8FwAAoJEKiufQgd4cCY8sEP/13U7rmFMyYgbITiJHxRM/Kl
+ BFW/iVYPqF4Kr9qjT0S80kOw0wvHctWGPAoHv23YxUYRrJuW0gd5EAdv+1KQBmE/
+ lpKaTXMAt8DKba80dRk5I1S6SnJhAKyesF+nlxi53EfqIp1mRwSwzzRWgx9mz08R
+ jJSyEbPHX/ipwmohEAZ1diIYQv9QFjrrXOv+avFZgm56tj3ckBtKZNuZ+P/0sttJ
+ zmom7H7v9O1WlHiF50TuiLRM8V4XMKRRFw2GHaUgC/Uh5jN6PHEBoeQT5ssXvVIu
+ 7IcCx9wTmABoGo2PALO51C+2aMvDXFml7QCEjwKtG2zelWJLXR1tyZuQdn+fxLa0
+ CDLc/V4mSgjscNN9gOJwX8AIUqwzA/SalZ5ng6gs6IqHk6wnrznw5kKNsEi1FInI
+ n2MlDsgCiv1D6gqqOYEJYrWYmQqOoU7fNi/cgi9vJ1XQOA0pd40SeoNMNzs4LmIu
+ oPifPJ+ODqfxTeBGSAZ3UDDdv80hzFlhMXHKk/a0+CpsBd1OmIkE+YhCQTI23wfv
+ xBzzO3WoecufpM1Ykg0yOYlGJ3IMJ1n7zvobJfiExeLDBM7fPFmJqB1sFRyV0n9f
+ sNMV1SjtLKZr65oePxFL1ludkQ6aMqlLCzNOSec6cUUSnkd+YwieT5yFpOXb6d8a
+ w4O9LtQO1R4tgrVXhBw4
+ =j/xY
+ -----END PGP SIGNATURE-----
+
+ kytv:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I KillYourTV/KYTV affirm that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ [pubkey kytv@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMMTHQs4AQ0KuXjHsPRvfeBo2EydIAcGcBH7VCO26AofX2ns3ezTKfvmv6QcFhcxn41I6OdG29DdFVRz4D8hIZvOoFYfe87nswgyXW85rEilJP02Z8HCr/dcYJbPsWAlMr7/UIDsT/9swd0U6QTf9X2W+VORyhDdYXcG8zikBqXQIDAQAB
+ [end]
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.10 (GNU/Linux)
+
+ iQEcBAEBAgAGBQJN0b3UAAoJEKvgwxnfCgoaQaMH/RdNoOt+1lm4cztvv5f2QBL3
+ W4h3PjloDqkLE4ATDm+AcctahQaWuA221AMOrhR0aS+93wm+mOxzSmeoE91V475n
+ 2fpC/zWx0WRAzjQkr1M6OkcXNy6f+H5/UkBcaivzI9y5wUv5ETUHwiy+5qzG4oQ7
+ AzbPHeJic88c6dyGX6rwa5VFMXLKYnr7h/i562/Ynaqus8tu/td1KEGkdNFgW4We
+ y/aXYqaNYtds4xova49m99Y5u1kfKltv4YVEwY5a7Cj8p/31aeD8c10rWrf00R9H
+ XlL2/b0lIx1C8CAK5TmdrD8G1SXl614SJTGuQfBT2N6yCT+jcrOMJIghCZhvmLQ=
+ =U1Tw
+ -----END PGP SIGNATURE-----
+
+ str4d:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I str4d affirm that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license.
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses.
+ * I have the right to release the code I commit under the terms I am committing it.
+ * The following is my monotone signing key:
+
+ 01265f0c817b24548478341fb75e672720a78b21 str4d@mail.i2p
+
+ [pubkey str4d@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDe4zkWVW8fBXGtnMpWbw316qbxWhKdnM86bnPyU3a8C2ERaofESzoZPXm21BR4jEqHLFzVzni4MTAJ+J0XjW70Le5DZTm/AG18qXd8UsK2+IreCHqnv5XPL8Lw8oY6zNoT834emGqH2n0T98OHF6zNUStBrvuv9AFPa6FZocF2mwIDAQAB
+ [end]
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.10 (GNU/Linux)
+
+ iQEcBAEBAgAGBQJPE5faAAoJENXeOJaUpGWy5kUIAIhe1ow0VpMgJitkBr8cBF8B
+ iJoKJ/DrCQ+XGk8API05VpyW0BLnG9qVRZh8DZux3NealIk3k37gN5rVHas0vpjU
+ 5qzqFNwpeyPSSFhylLMqf3fYdjJJZieZfWU/XW7HUMYGgZ03Lq95sxPRPyl8A0D8
+ 2ahv537Vy4EOZCdE8CvBgS/Hk0TVrG9EPL/vR1T6cx9YSV5/R0xiNNKujgoUHurX
+ 8gHudomaEf+VxqDFCFQbjIWqDuf1sm1eRQokvO+wELqNjkUsWhDMAS54EjTmYN+h
+ Zc8XFXkeLUdRU6zJHo0tRWo0zswIW+a0r5W+T5MHwUnYOiTUUVgOjtwTGN7uURQ=
+ =nEwG
+ -----END PGP SIGNATURE-----
+
+ meeh:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ Meeh, 9 Aug 2012
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1.4.11 (GNU/Linux)
+
+ iQIcBAEBAgAGBQJQJC9mAAoJELj1P6o1Twr4+i0QANHrOH8CyUJHVXkbTAxRdKW0
+ u4avJvhQchyXjGvEPxYzUbQw2th41XlaNVKXgoiWTMKdOc88kkhL9dHj8yasMIHI
+ hncureihJ7bFS11IFBauqP8nV8UG3oONq9GqzW+6YxQ4SL6UAMP84iXCfB6W0wBd
+ ZE/06i5ezdsbeGfIgbrgkNsQMVcGRrbV5S3kBbW+lV4RitEsF2qb2IYlwbSUUSL9
+ /7/8FX87xocLRs3GOjhmRiyifMSoSRShnmMmckDNGlkY3Yz19HSThE47xnyg9Aaj
+ NYzmZMJFVnY6Rt1d4iLEw+/DUlYqs0afovHT2MnqymuN89204I6Yccn3n6AGKJxx
+ yJX6U4x49BwohG7ZW1S9RINoobqcg3l1Ne1Lp5EBe8jyxFjz0n1684biDuyKJx/o
+ ryp8mJ2cRKEWOduAyIChMeo/tFaDkMg/tTyuLrpSw404XpXa4EaUUlbZVQRHf25g
+ 1Kil1XL+KhFcAP3hgjmpfc2ukFcL6j09yI0eZhlkJLosI+lKMpK3dqcjbdOiOauk
+ vQlJdkYZyxW2AReymH2XDI+cDg8tRw9iU22rAABXFs8zy5brK2Gjn1DK/sEVIdna
+ NVr7aW4hiQWqHVWivVy5Otf8Ioacoi8i2NISZtbCc68WtEkoFmEdW7QB+kwSsXIq
+ R2VFZ/114yCNY74KmujA
+ =jfFH
+ -----END PGP SIGNATURE-----
+
+ zab:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I declare that:
+
+ Unless marked otherwise, all code I commit is implicitly licensed
+ under the component's primary license
+ If specified in the source, the code may be explicitly licensed under
+ one of the component's alternate licenses
+ I have the right to release the code I commit under the terms I am
+ committing it
+
+ zab (topiltzin on irc)
+
+ [pubkey zab@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0H8bP/f8v7KjnyGlZGWQsF5G3ppvJ1Kwt/dUGi7gHbclKPnFAWXmb7YWOhl9Ua2USjQ4YrIeB7/2uVOpe+3FrFgUzIiWsx6I2yiNI3TscDvQsa5wG0Z2G4BbHXjONyiUzzO+j2TWPs3x35r2LCy8plRzPAswCF1GaIEjJCce5zwIDAQAB
+ [end]
+ [pubkey zab-transport@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLI/VD0KtrPPaCSQPHse4p53ze5yi/0CePfbh1YXTJieUzCGpD76IjlpRB8sRYIevWGglOjac6fhAA97VMlSmZHIxtBw3U4Y7kTkdZcsgkKTa756ge5UeURVmBaUZevb8DDRREUQ3ELt6bit9iQhOvsAeUNiB1IVmRRBXrYIQhSQIDAQAB
+ [end]
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG/MacGPG2 v2.0.18 (Darwin)
+ Comment: GPGTools - http://gpgtools.org
+ Comment: Using GnuPG with Mozilla - http://www.enigmail.net/
+
+ iQIcBAEBAgAGBQJQmQeOAAoJEJkeLHPsdqhZgOUQAIRzuQZ3yF1r+P0iO390r+qy
+ RxU0gQiPJDqDixDn0u8EAb2ljRWHTBfy792hs0nUu2//fNCh6chd7tbmJQn02Rm9
+ nDICr2Lex6a9j498yWnkh0ZHq9yd1CPGT8xo3DW/KzLmqj+8xNUmx9RI3Y32wL9h
+ H/O0VsGN0FhYeLU0vBlNkb+Vs9e0wY3/qCVMo1ldjVPahz6bblYXKVxfRhCThdfS
+ ufUH2wqaDUozKabCeuM0xlll3PuaL2cATjUJuVWvO4Lahf6EZZBUvEgiW95wAL3q
+ dFxZw9hUmFC4p30p0N+fQND/7aGfwujQO++S3D8gizqzSovaFpXxNzoQ6hSUWjI0
+ +KsvbJXu0IguUen2p/Ka8EB0yWokYjIUH4V2kLt9jVJLuoSkejnTrFQuPIR1Qmcr
+ 31wqWJMWWbbFBR7KrPaDnBnRej5aIyZnHIyTtgUKhO+paDGQ0IYDirgXP10MtouY
+ 4Hl5v2OwhOwv/mPOm74EwJknFPhQThgxO8zG9sTHq5Lteb5SwaPLdZi7CruVU66p
+ uCol/dZqVwrb2iVD19S4MvNQiOVQEWFKeBrxxBkT+qcGIWLMsG/o1qu0+VHpWQmo
+ G4Adgew+7tIkak/71ss1pvUi05WsPP9KyzXrwqcFyoAmMFPtgxUIVYVc1kwYb5h3
+ G58Br6HXTQLV8xAN1ml8
+ =4989
+ -----END PGP SIGNATURE-----
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I lost my original keys, will be using these going forward.
+
+ Thanks,
+ zab
+
+ [pubkey zab2@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLabJXvbBfHZ4zH2kom+W2Kb3kYYs58j8ZygkK9rj8j2SrlokxLiLABVYK7tdlb1zgZJVYgO8flnqsOSGb2CtoQ3i3Fqk0HNq2if47LVyaLwgOyoPOhYkDDGr9WggBp+svAHALMoGvh0lemKQZpQfdMgZ33k2l2o3Udvj3tpB/KwIDAQAB
+ [end]
+ [pubkey zab2-transport@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmh9ukHhxTY3/bDsAt7mOUETxO3sLrf70kR9Mn4p44c4NKuFF4APmeYaFfIP9N5ZkBxY+52YPCQNXdtLDAPpxrq9as+IOaxH3ZVENllml0iCuGjZWtvYVkxHXCKohMMlffgZFJeDIEEed3eIttUPsIdW8U+2XQM1zF9R77+K0ZJQIDAQAB
+ [end]
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG/MacGPG2 v2.0.18 (Darwin)
+ Comment: GPGTools - http://gpgtools.org
+
+ iQIcBAEBAgAGBQJRdvPLAAoJEJkeLHPsdqhZvAgP/02btw3WcVZ1CSJkfSrZ/shE
+ ooBPao/nq0XYY9GZdGbA2Ki/5HOKnPTyulPwCNocL3EULFzR9bCAr2ZdjujOdKOO
+ 6RQc6QcebGvtQF21eLdffT+LiHVI6Vl1y2ls288WP4YYhBXmaf7vj+6wNHf2l/B7
+ wiFEZH2nfyml7fruyWa0GHmWla96rbdMfXMdJAIcu/Uv0E5AeUHhHYhrDAZFf1/0
+ CzdW/MvXCtan0WwrNHfFmeDx29kT9wtF3cgduyBj/K4Kw1NDGpXt3w5Hybp0xak5
+ mpCo+lAxpC6DgjaTvrF54Hnqe21dydUdfwTZ7dtzfPbEwK5LrAWJCpjnlYO3kote
+ GUYXyGccg4A6nknCrkeidJcaF1j4xpJf38XY08z48r+Wd0/n5VSDbvo6BBcOljgp
+ IC1YQMcnFdRcV/K7MNlm58+WTa6NqJgrqnMnHDwdwF2v4csH4hjVmOD5//u6pCNg
+ ghCMrTVuEP6fqFJflFdKYfG/jlX7Vm1hh0a4QobWsII2A8TBGe9x3//ZXhX3d57c
+ mFhMwzjnCWdUTAfGPKeT+YorOnL9YRwsoXyBm4LjKGuHAMOKYpbS+6aZV2plPgIe
+ QUamNO18hBy7N/YdF2DPoV41ntobkM+kVfmR0jLCbiNjisMg1eO8mQ1ynY4Kf2F1
+ 6+WauW2gCAnDCnD/+EEh
+ =7u31
+ -----END PGP SIGNATURE-----
+
+ digit:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v2.0.20 (MingW32)
+
+ iQEcBAEBAgAGBQJRzgXbAAoJEAhQLmhPD07oWTkH/0nonFM5g0gw5SlqLKTxuBal
+ OMomT+4+FFaCDgXOSXnnlw38no7c234LeKpuvlr0LLxjiRdfcsnnuvqIWmeeY4cq
+ m3w6xGI+wNO2c/FYwTVumJO165sPc0Rg3b8d+zdUBncactRMdxcWUJTSHPdNzW2/
+ tmtChmVft6SOj+qgBQEMW0IjYm/4+vg4NEO4OAg8ncogea8dubpIFJjE2UbSr7dE
+ jkBoHiRXn4EN20Id4puCwXQK4QbbGwJGlKAUPgZXMd7nLqu9MljwLDkDWBMY9nRl
+ Zf9i4Wqw8wKgkWIIbZ2+V+zP83FLcX6ga+GMr8tf/bwWjSe1PN7mZAQlPB4p8Qc=
+ =NxxT
+ -----END PGP SIGNATURE-----
+
+ dg:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ I affirm the following with regard to I2P:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ -----BEGIN PGP SIGNATURE-----
+
+ iQIcBAEBAgAGBQJSbZwRAAoJEOLR0LYl1+FTlSIP/1+FGMm08vLk7V7v7fxKrHHf
+ GOmUa5p706sVMKVjM5cgBAkd1qkon5QKwjDOOHxeN9vu2EZbicRawn19YaOOHje5
+ peW4n/guYb8osflGNkBH3vy3EekB/PfuppIxjM7HeO08rJ9VrrYa6hseYvdVpMsi
+ E2LtF4kMekXxOvuQI4kKL0gT+KCW7OtLWVkRzhsDqLMyP/5JG3uTcI/PAe+y2Iip
+ ZZBLLkf9gBdPGOk/NeSEX510jlKqSC7TcyVnQe+BH0oLNG2SzlzeFpiTKdKObiq8
+ O9rxW2yga6+7bPIgoaoxEK2zzHEGubqqHKgMUQKHs4IW3TYEGBFeCK6HUXpvObIh
+ wuZK32JDZCytAzV8VcPWlA2tOInkdHZj5A5K1idvM7BLSQ2b1xzRbkflER9ZaPQ6
+ NDpkz8fiJYgIU7G8CqTK/8y9bjD+zITz3yOSAM3BGax/NeIs86drovgu2B1CeE0L
+ BXB/UwWZQhSE1W9AZJvbkPm4wLd9g8DihOJHArbxpEDj97W+faLGLLejm8lLB2Z5
+ uBQwb4YM5Lt3FKQPqT8h6yRNtU5inIdrzbQEcKlMfOGiuKxXFlTfxAAJkOLnnK8c
+ OFE4iD6nFr78yT/jo1BOOc1gs+xiq3P+Cxaa95v/F08JTwwwLqA/94PjTs57I2Ef
+ cFuIq+msmE5mtJW+czFE
+ =syT4
+ -----END PGP SIGNATURE-----
+
+ psi:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA256
+
+ Applicable to the code I contribute to the I2P project,
+ I hereby state that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ [pubkey ampernand@gmail.com]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC0UusT6oP4auy0e1F6dEG/JrgYKoQBzX1cGuPghhC5u8NFJxjtMSMsbZJAflq984N5MIIRHxxq1fOwl89qJop+byfldhVQXBWpt8bLeY6Y7LuhfMjCqLY7TsWw/KuAJkR4paLCUfkAY6ZFWnzwtZSlyYXBVH39Sk4021ZzZ2TvYQIDAQAB
+ [end]
+
+ [pubkey ampernand-transport@gmail.com]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZSYgXyMh7ZVAoyMZdIDjfuYc8P1JOiD/ihSQwoOYJWkdtuwrPnoalrV+y2/C7BmOOajLjatGRA50ckaAtstFefPzoJa8JmpPUgwN4vJDqbXPWaNkw1uianGZXnoRIgFZ+q/niH5sfP2+tsywpJFvvFgDpIlzfeU37AxBtP1JJSQIDAQAB
+ [end]
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1
+
+ iF4EAREIAAYFAlNSQ9EACgkQq5UCNNbqKGudCAEAriorkAyBR12Tl7eX6p1NnJet
+ xL79bD+x7M7JuDsOrlMA/21M0o+C5lyanvR+OgZ4P1A36//boaDDslWg58xcORLY
+ =u3Dh
+ -----END PGP SIGNATURE-----
+
+
+ z3r0fox:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA1
+
+ Regarding the code I submit to the I2P project, I do affirm that:
+
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under
+ the component's primary license
+ * If specified in the source, the code may be explicitly licensed under
+ one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am
+ committing it
+
+ z3r0fox
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v1
+
+ iQIcBAEBAgAGBQJV9aHxAAoJECXQ6+lvk7g7gZEQAIldxbll0C7CEgL6w2HNSA5q
+ w91RF93FNW8ipPq/L4KOBHtsrvhMl5EU/4e5VWO7tiCbaMJ5XYcOnPOPjrvRvUS3
+ hfQBbSswA0CR73+mW2EDdLNl8EsEegqmfTHiWjM4tTyyrAiaEYun2osmG93J91GR
+ I1w5y5HBFBca88mFrRvBmigRj4G7V2ZDyER5BaT2IX2AT2UF5KzLL+pRRuUeuXeV
+ LOvm441XY/t+65mgdA79Oh3XMt3M2MlYuVjXQqT/9nH8UN+IQlZgPO3ao1ydPoqU
+ UMVtY8Rl5ArjOi/TcPEQTC5/B8RMwxsMhQdu37B/7w1EK6/F/QQscv6WSNHLeZmo
+ WYgGAa/96Z0fTJRkuvXJpRPyJfKeOOrC4mpQruSLQZRrExtIc7jsXED/PSqkFM4n
+ rXDZcSY73gKOPZ26josYZrq6P3E37OsnNdC9EPmnWjfNFu2EgALK5f4faOWW0QHa
+ WTPmB1ffjt86b9tj3AlfJseVZEMaU8xPhlafBu3dwxz450nUw0ShfXDc1sNm3l53
+ L0Fc6flpvDcXPz8ixPbJhomqJik8LoyFu4UaUQ/w0OGuOH40pZ3kfwY54lyzB1HD
+ nFC1/TkFLWXB6Yn0rFKX+oRMH6fMtk9svHMad1gplLfJHuMTx8sFyy9NEkXEnZ77
+ Qx3lEvvg5ZritEb7tIpx
+ =A/5J
+ -----END PGP SIGNATURE-----
+
+
+ lazygravy:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA512
+
+ Regarding the code I submit to the I2P project, I do affirm that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under the component's primary license
+ * If specified in the source, the code may be explicitly licensed under one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am committing it
+
+ [pubkey laziestgravy@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJTyq5mehZ5cU+zuQqDPLt5coBn/AnshA6jcXy5pUiQMRtC2TVM0URl9wmeg+mDtPvQKn472b7l8aH92f/vp31aS9pScPTQt0jcBu54C2+JaZT2UAZAGLFZ4dQETIN+eg4S2QBPx63Bqx00a26EjiTP8iP1anTrQjUixcdl2OOVwIDAQAB
+ [end]
+
+ [pubkey laziestgravy-transport@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC+SfW0gj2ZvaTwo+sucuT18Nx2ulIexI8EvG5MP8vwM1dRrq5dIUAFHQFDgVwAtBx78rdF6AQNVAao96VHcqZR6XwQZNxgOFDrP5Lg6SDNYE2UjNXNJTdWoNP68lYC9ZAMKxUczmT21OFev1iuyao01amUFhyrijeDGYfukdiuswIDAQAB
+ [end]
+
+ lazygravy
+ -----BEGIN PGP SIGNATURE-----
+
+ iQIzBAEBCgAdFiEEJnKNeipkrlL41ggsrb4mjoJMJBgFAllHI2cACgkQrb4mjoJM
+ JBga+w//Xo4ZDK/dd3yCMpC263FZhxCWM0yAkZZNBrFNCzsA4KPeb62nbNIgmQXr
+ BuC3mHpQeANeMjYmrSBMO2c2nbQ8FVXxwnIyqYYIbeElih3dycdbcfg7877SKnmX
+ RreYA6hZu53NdEPSYFeXqfcNPUHPq70/EYvd6OzBHusVFkUbYtrhBa2VfGvA75rJ
+ SBxcB0u8ZDjwGqrpoOtpFINzyjtUSjQxZzeh8o0gzGlYG6d1bA8Ug9FF3Qq586eD
+ sXWOAQ/THBX87dzUmYkz20SIL6Q/quVDfaIwZUII+56SzaCUGQxdvgMnMYAib1GT
+ iWF+Ptz3qfzXsXQvpCDwhOROVQFkOuIJvMwHi9w67Mzud/cDCxkk9Z2TMQTwuVQI
+ wiue+Ncq0bnSrYP1BUwsQPFM8XLy6R4lke0mtuJlT7VoykLLjRie5qGMdTzOeKuk
+ irh6IU+3Ot9MNDmJbwt9/jQdBYIi8xOhQvcFMnrP63cwbntUp7aAmt0GwjfyxB4H
+ bYL6GPMEFbmkFbKW/owK+CikhnwBN781q6cxDkPBw7lskStDGs6iEZ54/oVS9JPo
+ im+hAFk/w/FAi5mpzL35meaGgqILxxUF0pgoJUo6fVeEUxFG3JhWnBoZqq+VDvXR
+ u53eLKyuw3UDAIQH1X8oa/zEDqRvOnUbH+pcL3o4/19TBANxiAA=
+ =FGri
+ -----END PGP SIGNATURE-----
+
+
+ slumlord:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA256
+
+ With regards to the code that I contribute to I2P, I affirm that:
+
+ * Unless marked otherwise, all code I commit is implicitly licensed under
+ the component's primary license
+ * If specified in the source, the code may be explicitly licensed under
+ one of the component's alternate licenses
+ * I have the right to release the code I commit under the terms I am
+ committing it
+
+ [pubkey slumlord@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwiRwyysbGxFkQ60Pkv86E7nhjbSeJ4MgfYQoiyTr/6ZN9zL90260d1dvjFsM5l0I11IIJKe2iL7p1hQkitFfBBmmoKyU/I/kBebVpxPVUoSMuVI/+WytXem65p8ALMY9+0Ndccx7NLkfZ+sddfzkTXHrNzN0IXQMUmfOP+bY3gQIDAQAB
+ [end]
+
+ [pubkey slumlord-transport@mail.i2p]
+ MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCqrSOEbQRAwtxDyBmvwfKCyIByFh99yxzq19zmc21oulJD0UEuTHTQaE9/7rrYgQh8CbE8+Pi6R1NwboGvufLUX2NSKGYiklsQxXNaHgkPW26+TL32nY12LddKsNKJERMMdu0qjbNIX0dIzWVNnidNT0Q2uJrom0uiOf6pAFlVQwIDAQAB
+ [end]
+
+ -----BEGIN PGP SIGNATURE-----
+ Version: GnuPG v2
+
+ iQIcBAEBCAAGBQJa4WHEAAoJECtLcp67oAOJhuwP/ieLFQ7WsunVXp6aEjd9a1b2
+ /n2ueXfLAUsSqvsyZe7/SUrWO0VoMqTHe7a7WqkDVH/Qp2c5Iot43hnXRLawSY4y
+ hqpOYRrq1ukHveQ/FEaTmZtzxRIZFK6j4wQWhuH0VJHRuD7XpNI8hBgWYaLw79a+
+ EkSy3TwRnYmiuQk6lcf+7sX9xiHHiJ+vWUIEIpsnZxtz4IXZLlsn9MEVQ34afzHy
+ 2tnyJWGAIv8Dm94OFuQFP3a+ovCCzj6c1jn0ZyFgy5UlgMzyr8QlsV+2ByarQdsW
+ ttTf6/nB+I50JDwcd8WSQZhqJF1GztGgjKvNtrPzF7zYKtvaqU/FyTlr/N37XFQ3
+ m/OFMa0UOqiyZ5s4Z9YflRhKykVzXcriMQOJsXsnBtsvpFfpVT0sCgmLax01Lpgx
+ luEXAriKtB6S8m3zzjoBHqAzz4/bD1hl1LNGMCpYPV12cel8F3BIK+TNvmyc6NEe
+ kv2VL+LnSELY2GtIp42GNlcR6dX9eW3qfQAOrYhEzbfr83A7beRPa5y+fkWnFiQL
+ pQ+GmhRguqn5qNxB++XahLINam9OdupkQSqpVQ1xpzNtT76Vm2hA3DdWyV//qe6y
+ Ym52qy1b+ZQbifqKGO3Co1uZFcDjVi60tVkIhjkxXg3OciskpYurpI9LTegIhHsd
+ O7rKwsjk8hziMcafl6Tx
+ =o/ox
+ -----END PGP SIGNATURE-----
+
+
+ hankhill19580:
+
+ -----BEGIN PGP SIGNED MESSAGE-----
+ Hash: SHA512
+
+ 1. Unless marked otherwise, all code I commit is implicitly licensed
+ under the component's primary license
+
+ 2. If specified in the source, the code may be explicitly licensed under
+ one of the component's alternate licenses
+
+ 3. I have the right to release the code I commit under the terms I am
+ committing it
+
+ idk, 25 May 2019
+ -----BEGIN PGP SIGNATURE-----
+
+ iQEzBAEBCgAdFiEEcNIGBzi++AUjrK/311wDs5teFOEFAlzpP7QACgkQ11wDs5te
+ FOH0wQf9GPNmGYR1VZTb7HzwNkCnLRRlRnIbtnULCCeiMEzVOcrdmkPWqR3bkYy+
+ ThjGuQpI/voBKEUNBV5kWKUaXhjh3S5A0QPcCqYEimDfTyjcIrcjDP0QHjE+T9tR
+ yPYHTMVlW4zUzMY1ck3R6Qv5LKyLwH3kiq39FyeNEV5KP5ECERVDxe9PqKVkXbZa
+ 8hWlGDR+kKf0YZnhyWbawuoimOCcFvcD/LsJYujO7IU32NqtRHXp4D7XH+DIq1nP
+ x9uYeSW+t82kabz6Ecd0cFdyZYLd7TOyWM0MSqIepaTt40OAJjy/SKtBTkRALo84
+ wvBNffcb8R/Yeu5zCeGJqkAOG6TgZg==
+ =YbEG
+ -----END PGP SIGNATURE-----
+
+
