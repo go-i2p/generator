@@ -1,5 +1,5 @@
-# Directory Listing: /home/runner/work/generator/generator/processed/ru/pages/global
-Generated on: Wed May  7 04:32:17 UTC 2025
+# Directory Listing: /home/runner/work/www/www/processed/ru/pages/global
+Generated on: Wed May  7 05:11:31 UTC 2025
 
 - [README.md](README.md)
 - [error_404.html.md](error_404.html.md)

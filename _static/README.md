@@ -1,5 +1,5 @@
-# Directory Listing: /home/runner/work/generator/generator/processed/_static
-Generated on: Wed May  7 04:31:15 UTC 2025
+# Directory Listing: /home/runner/work/www/www/processed/_static
+Generated on: Wed May  7 05:12:08 UTC 2025
 
 - [BingSiteAuth.xml](BingSiteAuth.xml)
 - [README.md](README.md)

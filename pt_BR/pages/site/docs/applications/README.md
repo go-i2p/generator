@@ -1,5 +1,5 @@
-# Directory Listing: /home/runner/work/generator/generator/processed/pt_BR/pages/site/docs/applications
-Generated on: Wed May  7 04:31:54 UTC 2025
+# Directory Listing: /home/runner/work/www/www/processed/pt_BR/pages/site/docs/applications
+Generated on: Wed May  7 05:11:27 UTC 2025
 
 - [README.md](README.md)
 - [bittorrent.html.md](bittorrent.html.md)

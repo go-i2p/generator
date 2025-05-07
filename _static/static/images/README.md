@@ -1,5 +1,5 @@
-# Directory Listing: /home/runner/work/generator/generator/processed/_static/static/images
-Generated on: Wed May  7 04:31:18 UTC 2025
+# Directory Listing: /home/runner/work/www/www/processed/_static/static/images
+Generated on: Wed May  7 05:12:11 UTC 2025
 
 - [00-wizard.png](00-wizard.png)
 - [01-select.png](01-select.png)

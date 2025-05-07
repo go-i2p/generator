@@ -1,5 +1,5 @@
-# Directory Listing: /home/runner/work/generator/generator/processed/ru/pages/site/docs/discussions
-Generated on: Wed May  7 04:32:18 UTC 2025
+# Directory Listing: /home/runner/work/www/www/processed/ru/pages/site/docs/discussions
+Generated on: Wed May  7 05:11:31 UTC 2025
 
 - [README.md](README.md)
 - [naming.html.md](naming.html.md)

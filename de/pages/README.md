@@ -1,5 +1,5 @@
-# Directory Listing: /home/runner/work/generator/generator/processed/de/pages
-Generated on: Wed May  7 04:31:23 UTC 2025
+# Directory Listing: /home/runner/work/www/www/processed/de/pages
+Generated on: Wed May  7 05:12:01 UTC 2025
 
 - [README.md](README.md)
 - **[blog/](blog/)**
