@@ -1,5 +1,5 @@
 # Directory Listing: /home/runner/work/www/www/processed/hu/pages/site/research
-Generated on: Wed May  7 05:17:21 UTC 2025
+Generated on: Wed May  7 05:18:56 UTC 2025
 
 - [README.md](README.md)
 - [index.html.md](index.html.md)
