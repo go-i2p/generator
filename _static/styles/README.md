@@ -1,0 +1,34 @@
+# Directory Listing: /home/runner/work/generator/generator/processed/_static/styles
+Generated on: Wed May  7 04:31:22 UTC 2025
+
+- [README.md](README.md)
+- **[danimoth/](danimoth/)**
+  - [default.css](danimoth/default.css)
+  - [desktop.css](danimoth/desktop.css)
+  - [mobile.css](danimoth/mobile.css)
+- **[dark/](dark/)**
+  - [default.css](dark/default.css)
+  - [desktop.css](dark/desktop.css)
+  - [mobile.css](dark/mobile.css)
+- [default.css](default.css)
+- **[duck/](duck/)**
+  - [default.css](duck/default.css)
+  - [default.rtl.css](duck/default.rtl.css)
+  - [desktop.css](duck/desktop.css)
+  - [desktop.rtl.css](duck/desktop.rtl.css)
+  - **[images/](duck/images/)**
+    - [bg-sidebar.png](duck/images/bg-sidebar.png)
+    - [i2plogo.png](duck/images/i2plogo.png)
+  - [mobile.css](duck/mobile.css)
+  - [reset.css](duck/reset.css)
+  - [syntax.css](duck/syntax.css)
+  - [widescreen.css](duck/widescreen.css)
+  - [widescreen.rtl.css](duck/widescreen.rtl.css)
+- **[light/](light/)**
+  - [default.css](light/default.css)
+  - [desktop.css](light/desktop.css)
+  - [mobile.css](light/mobile.css)
+- [light_ar.css](light_ar.css)
+- [light_zh.css](light_zh.css)
+- [mainmenu.css](mainmenu.css)
+- [pubs.css](pubs.css)

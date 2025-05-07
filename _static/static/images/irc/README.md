@@ -1,0 +1,23 @@
+# Directory Listing: /home/runner/work/generator/generator/processed/_static/static/images/irc
+Generated on: Wed May  7 04:31:20 UTC 2025
+
+- [README.md](README.md)
+- [pidgin-irc-0.png](pidgin-irc-0.png)
+- [pidgin-irc-1.png](pidgin-irc-1.png)
+- [pidgin-irc-2.png](pidgin-irc-2.png)
+- [pidgin-irc-3.png](pidgin-irc-3.png)
+- [revolution-irc-0.png](revolution-irc-0.png)
+- [revolution-irc-1.png](revolution-irc-1.png)
+- [revolution-irc-2.png](revolution-irc-2.png)
+- [thunderbird-irc-0.png](thunderbird-irc-0.png)
+- [thunderbird-irc-1.png](thunderbird-irc-1.png)
+- [thunderbird-irc-2.png](thunderbird-irc-2.png)
+- [thunderbird-irc-3.png](thunderbird-irc-3.png)
+- [thunderbird-irc-4.png](thunderbird-irc-4.png)
+- [thunderbird-irc-5.png](thunderbird-irc-5.png)
+- [thunderbird-irc-6.png](thunderbird-irc-6.png)
+- [tuncheck-irc-all.png](tuncheck-irc-all.png)
+- [xchat-irc-0.png](xchat-irc-0.png)
+- [xchat-irc-1.png](xchat-irc-1.png)
+- [xchat-irc-2.png](xchat-irc-2.png)
+- [xchat-irc-3.png](xchat-irc-3.png)
